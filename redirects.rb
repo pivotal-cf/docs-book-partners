@@ -34,47 +34,8 @@ r301 %r{/rabbitmq-cf/1-7-[\d]+/(.*)}, "/rabbitmq-cf/1-7/$1"
 r301 %r{/rabbitmq-cf/1-6-[\d]+/(.*)}, "/rabbitmq-cf/1-6/$1"
 r301 %r{/rabbitmq-cf/1-5-[\d]+/(.*)}, "/rabbitmq-cf/1-5/$1"
 
-r301 %r{/bosh/(.*)}, 'http://bosh.io/docs/$1'
-r301 %r{/jmx-bridge/(?![\d-]+)(.*)}, "/jmx-bridge/1-8/$1"
 
-r301 %r{/p-mysql/(?![\d-]+)(.*)}, "/p-mysql/1-8/$1"
-r301 %r{/p-MySQL/(?![\d-]+)(.*)}, "/p-mysql/1-8/$1"
 
-r301 %r{/p-mysql/1-9/(.*)}, "/p-mysql/1-8/$1"
-r301 %r{/p-MySQL/1-9/(.*)}, "/p-mysql/1-8/$1"
-
-r301 %r{/200/(.*)}, "http://hdb.docs.pivotal.io/200/$1"
-r301 %r{/201/(.*)}, "http://hdb.docs.pivotal.io/201/$1"
-r301 %r{/130/(.*)}, "http://hdb.docs.pivotal.io/130/$1"
-r301 %r{/131/(.*)}, "http://hdb.docs.pivotal.io/131/$1"
-r301 %r{/210/(.*)}, "http://hdb.docs.pivotal.io/210/$1"
-r301 %r{/211/(.*)}, "http://hdb.docs.pivotal.io/211/$1"
-
-r301 %r{/pivotalhd/1010/(.*)}, 'http://pivotalhd-210.docs.pivotal.io/doc/1010/$1'
-r301 %r{/pivotalhd/1030/(.*)}, 'http://pivotalhd-210.docs.pivotal.io/doc/1030/$1'
-r301 %r{/pivotalhd/1100/(.*)}, 'http://pivotalhd-210.docs.pivotal.io/doc/1100/$1'
-r301 %r{/pivotalhd/1110/(.*)}, 'http://pivotalhd-210.docs.pivotal.io/doc/1110/$1'
-r301 %r{/pivotalhd/2000/(.*)}, 'http://pivotalhd-210.docs.pivotal.io/doc/2000/$1'
-r301 %r{/pivotalhd/2010/(.*)}, 'http://pivotalhd-210.docs.pivotal.io/doc/2010/$1'
-r301 %r{/pivotalhd/advisories/(.*)}, 'http://pivotalhd-210.docs.pivotal.io/doc/advisories/$1'
-r301 %r{/pivotalhd/index.html}, 'http://pivotalhd.docs.pivotal.io/docs/index.html'
-r301 %r{/pivotalhd/(.*)}, 'http://pivotalhd-210.docs.pivotal.io/doc/2100/$1'
-
-r301 %r{/gpdb/(.*)}, 'http://gpdb.docs.pivotal.io/$1'
-r301 %r{/gptext/(.*)}, 'http://gpdb.docs.pivotal.io/gptext/$1'
-
-r301 '/gemfire/index.html', 'http://gemfire.docs.pivotal.io/index.html'
-r301 '/gemfire/', 'http://gemfire.docs.pivotal.io/index.html'
-r301 '/gemfirexd/index.html', 'http://gemfirexd.docs.pivotal.io/index.html'
-r301 '/gemfirexd/', 'http://gemfirexd.docs.pivotal.io/index.html'
-r301 '/rabbitmq/index.html', 'http://rabbitmq.docs.pivotal.io/index.html'
-r301 '/rabbitmq/', 'http://rabbitmq.docs.pivotal.io/index.html'
-r301 '/dca/index.html', 'http://data.docs.pivotal.io/dca/index.html'
-r301 '/dca/', 'http://data.docs.pivotal.io/dca/index.html'
-r301 '/tcserver/index.html', 'http://tcserver.docs.pivotal.io/index.html'
-r301 '/tcserver/', 'http://tcserver.docs.pivotal.io/index.html'
-r301 '/webserver/index.html', 'http://webserver.docs.pivotal.io/index.html'
-r301 '/webserver/', 'http://webserver.docs.pivotal.io/index.html'
 
 r301 '/mobile/datasync/introduction.html', '/mobile/datasync/index.html'
 r301 '/mobile/datasync/user-guide.html', '/mobile/datasync/dashboard-user-guide.html'
@@ -106,13 +67,7 @@ r301 '/partners/releases.html', '/tiledev/releases.html'
 r301 '/partners/sdk.html', '/tiledev/sdk.html'
 r301 '/partners/tiles.html', '/tiledev/property-reference.html'
 
-r301 '/p1-services/MongoDB.html', '/mongodb/index.html'
-r301 '/p1-services/Neo4j.html', '/neo4j/index.html'
-r301 '/p1-services/Cassandra.html', '/cassandra/index.html'
 
-r301 '/compatibility-matrix.pdf', '/resources/product-compatibility-matrix.pdf'
-
-r301 '/services/asynchronous-operations.html', '/services/api.html#asynchronous-operations'
 
 r301 '/spring-cloud-services/circuit-breaker/using-a-circuit-breaker.html', '/spring-cloud-services/circuit-breaker/writing-client-applications.html'
 r301 '/spring-cloud-services/config-server/updating-instance-settings.html', '/spring-cloud-services/config-server/updating-an-instance.html'
