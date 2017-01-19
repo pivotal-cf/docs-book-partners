@@ -193,16 +193,8 @@ sections:
     name: pivotal-cf/docs-tibco-businessworks
   directory: tibco-businessworks
   subnav_template: tibco_businessworks_subnav.erb
-
-# repos in other orgs: alphabetical by org
-
 - repository:
     name: dingotiles/dingo-docs
     at_path: docs-dingo-postgresql
   directory: dingo-postgresql
   subnav_template: _dingo_postgresql_subnav.erb
-
-- repository:
-    name: bentarnoff/docs-tracker-pcf
-  directory: tracker-pcf
-  subnav_template: pivotal_tracker_subnav.erb
