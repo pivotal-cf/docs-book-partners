@@ -14,13 +14,6 @@ elastic_search: true
 # products:
 
 sections:
-# cross-product resources
-- repository:
-    name: pivotal-cf/docs-pdfs
-  directory: archives
-- repository:
-    name: pivotal-cf/product-compatibility-matrix
-  directory: resources
 
 # repos in org pivotal-cf: alphabetical
 - repository:
