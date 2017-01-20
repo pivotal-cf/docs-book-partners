@@ -23,6 +23,7 @@ r301 %r{/cjoc/(.*)}, 'https://docs.pivotal.io'
 r301 %r{/p-riakcs/(.*)}, 'https://docs.pivotal.io'
 
 # Redirect from index back to book
+r301 "/partners/", "https://docs.pivotal.io"
 r301 "/partners/index.html", "https://docs.pivotal.io"
 
 
