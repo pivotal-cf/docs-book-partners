@@ -21,3 +21,6 @@ r301 %r{/ruxit/(.*)}, '/dynatrace/index.html'
 # Is this current as of Q1 2017?
 r301 %r{/cjoc/(.*)}, 'https://docs.pivotal.io'
 r301 %r{/p-riakcs/(.*)}, 'https://docs.pivotal.io'
+
+# # all partners
+# r301 %r{/pivotalcf/(?![\d-]+)(.*)}, "/pivotalcf/1-10/$1"
