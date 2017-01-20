@@ -19,171 +19,171 @@ sections:
 - repository:
     name: pivotal-cf/docs-a9s-bosh
     at_path: docs-content
-  directory: a9s-bosh
+  directory: partners/a9s-bosh
   subnav_template: a9s-bosh_subnav.erb
 - repository:
     name: pivotal-cf/docs-a9s-consul
     at_path: docs-content
-  directory: a9s-consul-dns
+  directory: partners/a9s-consul-dns
   subnav_template: a9s-consul-dns_subnav.erb
 - repository:
     name: pivotal-cf/docs-a9s-elasticsearch
     at_path: docs-content
-  directory: a9s-elasticsearch
+  directory: partners/a9s-elasticsearch
   subnav_template: a9s-elasticsearch_subnav.erb
 - repository:
     name: pivotal-cf/docs-a9s-mongodb
     at_path: docs-content
-  directory: a9s-mongodb
+  directory: partners/a9s-mongodb
   subnav_template: a9s-mongodb_subnav.erb
 - repository:
     name: pivotal-cf/docs-a9s-postgresql
     at_path: docs-content
-  directory: a9s-postgresql
+  directory: partners/a9s-postgresql
   subnav_template: a9s-postgresql.erb
 - repository:
     name: pivotal-cf/docs-aerospike
     at_path: docs-content
-  directory: aerospike
+  directory: partners/aerospike
   subnav_template: aerospike_subnav.erb
 - repository:
     name: pivotal-cf/docs-aerospike-ee
     at_path: docs-content
-  directory: aerospike-ee
+  directory: partners/aerospike-ee
   subnav_template: aerospike_ee_subnav.erb
 - repository:
     name: pivotal-cf/docs-apigee
-  directory: apigee
+  directory: partners/apigee
   subnav_template: apigee_subnav.erb
 - repository:
     name: pivotal-cf/docs-apigee-bosh
     at_path: docs-content
-  directory: apigee-bosh
+  directory: partners/apigee-bosh
   subnav_template: apigee_bosh_subnav.erb
 - repository:
     name: pivotal-cf/docs-appdynamics
-  directory: appdynamics
+  directory: partners/appdynamics
   subnav_template: _appdynamics_subnav.erb
 - repository:
     name: pivotal-cf/docs-azuqua
-  directory: azuqua
+  directory: partners/azuqua
   subnav_template: azuqua_subnav.erb
 - repository:
     name: pivotal-cf/docs-azure
     at_path: docs-content
-  directory: azure-sb
+  directory: partners/azure-sb
   subnav_template: azuresb_subnav.erb
 - repository:
     name: pivotal-cf/docs-blue-medora
     at_path: docs-content
-  directory: blue-medora
+  directory: partners/blue-medora
   subnav_template: blue_medora_subnav.erb
 - repository:
     name: pivotal-cf/docs-cloudbees
-  directory: cloudbees
+  directory: partners/cloudbees
   subnav_template: pivotal_cloudbees_service_subnav.erb
 - repository:
     name: pivotal-cf/docs-cloudsoft
-  directory: cloudsoft
+  directory: partners/cloudsoft
   subnav_template: cloudsoft_subnav.erb
 - repository:
     name: pivotal-cf/docs-crunchy-data
     at_path: docs-content
-  directory: crunchy
+  directory: partners/crunchy
   subnav_template: crunchy_subnav.erb
 - repository:
     name: pivotal-cf/docs-dynatrace
     at_path: docs-content
-  directory: dynatrace
+  directory: partners/dynatrace
   subnav_template: pivotal_dynatrace_service_subnav.erb
 - repository:
     name: pivotal-cf/docs-edb-postgres
-  directory: edb-postgres
+  directory: partners/edb-postgres
   subnav_template: pivotal_edb_postgres.erb
 - repository:
     name: pivotal-cf/docs-erlang-wombat
     at_path: docs-content
-  directory: wombat
+  directory: partners/wombat
   subnav_template: erlang_wombat_subnav.erb
 - repository:
     name: pivotal-cf/docs-firstdata
     at_path: docs-content
-  directory: firstdata
+  directory: partners/firstdata
   subnav_template: firstdata_subnav.erb
 - repository:
     name: pivotal-cf/docs-forgerock
     at_path: docs-content
-  directory: forgerock
+  directory: partners/forgerock
   subnav_template: forgerock_subnav.erb
 - repository:
     name: pivotal-cf/docs-gitlab
-  directory: gitlab
+  directory: partners/gitlab
   subnav_template: pivotal_gitlab_service_subnav.erb
 - repository:
     name: pivotal-cf/docs-google
     at_path: docs-content
-  directory: gcp-sb
+  directory: partners/gcp-sb
   subnav_template: gcpsb_subnav.erb
 - repository:
     name: pivotal-cf/docs-guardtime
-  directory: guardtime
+  directory: partners/guardtime
   subnav_template: pivotal_guardtime.erb
 - repository:
     name: pivotal-cf/docs-hazelcast
     at_path: docs-content
-  directory: hazelcast
+  directory: partners/hazelcast
   subnav_template: hazelcast_subnav.erb
 - repository:
     name: pivotal-cf/docs-jfrog
-  directory: jfrog
+  directory: partners/jfrog
   subnav_template: pivotal_jfrog_service_subnav.erb
 - repository:
     name: pivotal-cf/docs-klacloud
-  directory: knowtify
+  directory: partners/knowtify
   subnav_template: pivotal_knowtify_service_subnav.erb
 - repository:
     name: pivotal-cf/docs-mongodb-managed
     at_path: docs-content
-  directory: mongodb
+  directory: partners/mongodb
   subnav_template: pivotal_mongodb_service_subnav.erb
 - repository:
     name: pivotal-cf/docs-mulesoft-anypoint
     at_path: docs-content
-  directory: mulesoft
+  directory: partners/mulesoft
   subnav_template: mulesoft_subnav.erb
 - repository:
     name: pivotal-cf/docs-neo4j
-  directory: neo4j
+  directory: partners/neo4j
   subnav_template: pivotal_neo4j_service_subnav.erb
 - repository:
     name: pivotal-cf/docs-new-relic
-  directory: newrelic
+  directory: partners/newrelic
   subnav_template: pivotal_new_relic_service_subnav.erb
 - repository:
     name: pivotal-cf/docs-rlec
-  directory: rlec
+  directory: partners/rlec
   subnav_template: pivotal_rlec.erb
 - repository:
     name: pivotal-cf/docs-signal-sciences
     at_path: docs-content
-  directory: signalsciences
+  directory: partners/signalsciences
   subnav_template: signalsciences_subnav.erb
 - repository:
     name: pivotal-cf/docs-solace-messaging
     at_path: docs-content
-  directory: solace-messaging
+  directory: partners/solace-messaging
   subnav_template: pivotal_solace_messaging.erb
 - repository:
     name: pivotal-cf/docs-splunk
     at_path: docs-content
-  directory: splunk
+  directory: partners/splunk
   subnav_template: splunk_subnav.erb
 - repository:
     name: pivotal-cf/docs-tibco-businessworks
-  directory: tibco-businessworks
+  directory: partners/tibco-businessworks
   subnav_template: tibco_businessworks_subnav.erb
 - repository:
     name: dingotiles/dingo-docs
     at_path: docs-dingo-postgresql
-  directory: dingo-postgresql
+  directory: partners/dingo-postgresql
   subnav_template: _dingo_postgresql_subnav.erb
