@@ -121,6 +121,11 @@ sections:
   directory: partners/forgerock
   subnav_template: forgerock_subnav.erb
 - repository:
+    name: pivotal-cf/docs-gcp-stackdriver
+    at_path: docs-content
+  directory: partners/gcp-sdn
+  subnav_template: GCP-Stackdriver_subnav.erb
+- repository:
     name: pivotal-cf/docs-gitlab
   directory: partners/gitlab
   subnav_template: pivotal_gitlab_service_subnav.erb
