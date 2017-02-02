@@ -100,7 +100,7 @@ sections:
     name: pivotal-cf/docs-datastax
     at_path: docs-content
   directory: partners/datastax
-  subnav_template: datstax_subnav.erb
+  subnav_template: datastax_subnav.erb
 - repository:
     name: pivotal-cf/docs-dynatrace
     at_path: docs-content
