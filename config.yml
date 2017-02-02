@@ -97,6 +97,11 @@ sections:
   directory: partners/crunchy
   subnav_template: crunchy_subnav.erb
 - repository:
+    name: pivotal-cf/docs-datastax
+    at_path: docs-content
+  directory: partners/datastax
+  subnav_template: datstax_subnav.erb
+- repository:
     name: pivotal-cf/docs-dynatrace
     at_path: docs-content
   directory: partners/dynatrace
