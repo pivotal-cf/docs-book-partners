@@ -102,6 +102,11 @@ sections:
   directory: partners/datastax
   subnav_template: datastax_subnav.erb
 - repository:
+    name: pivotal-cf/docs-dyadic-service-broker
+    at_path: docs-content
+  directory: partners/dyadic-service-broker
+  subnav_template: dyadic-service-broker_subnav.erb
+- repository:
     name: pivotal-cf/docs-dynatrace
     at_path: docs-content
   directory: partners/dynatrace
