@@ -175,9 +175,9 @@ sections:
   directory: partners/newrelic
   subnav_template: pivotal_new_relic_service_subnav.erb
 - repository:
-    name: pivotal-cf/docs-rlec
-  directory: partners/rlec
-  subnav_template: pivotal_rlec.erb
+    name: pivotal-cf/docs-rle-service-broker
+  directory: partners/rle-service-broker
+  subnav_template: pivotal_rle_service_broker.erb
 - repository:
     name: pivotal-cf/docs-signal-sciences
     at_path: docs-content
