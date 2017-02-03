@@ -63,7 +63,7 @@ sections:
 - repository:
     name: pivotal-cf/docs-apigee-bosh
     at_path: docs-content
-  directory: partners/apigee-bosh
+  directory: partners/edge-installer
   subnav_template: apigee_bosh_subnav.erb
 - repository:
     name: pivotal-cf/docs-appdynamics
