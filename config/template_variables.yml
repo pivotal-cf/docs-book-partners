@@ -2,7 +2,7 @@
 template_variables:
   book_title: Pivotal Partner Documentation
   book_title_short: Pivotal Partner Docs
-  title: Return to Pivotal Documentation
+  title: Pivotal Partner Documentation
   title_image:
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
   product_full: Elastic Runtime
