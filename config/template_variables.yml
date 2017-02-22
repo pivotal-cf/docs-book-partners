@@ -3,6 +3,7 @@ template_variables:
   book_title: Pivotal Partner Documentation
   book_title_short: Pivotal Partner Docs
   title: <span class="title-deemph">Pivotal</span> Partner Documentation
+  title_href: /index.html#partners
   title_image:
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
   product_full: Elastic Runtime
@@ -75,7 +76,7 @@ template_variables:
   first_product_name: Pivotal Cloud Foundry&reg; (PCF)
   ga_account_id: UA-39702075-1
   gen_GSG:
-  global_header_product_href:
+  global_header_product_href: /index.html#partners
   global_header_product_link_text: <em>This content is provided by a Pivotal Partner</em>
   GSG_intro_sentence:
   incompatible_ldap_saml: <p class='note'><strong>Note</strong>&#58; The procedures described here are not compatible with using SAML or LDAP for user identity management. To create and manage user accounts in a SAML- or LDAP-enabled Cloud Foundry deployment, see <a href='../customizing/external-user-management.html'>Adding Existing SAML or LDAP Users to a Pivotal Cloud Foundry&reg; Deployment</a>.</p>
