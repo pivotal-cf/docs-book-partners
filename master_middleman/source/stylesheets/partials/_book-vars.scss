@@ -1,7 +1,7 @@
 // Variables that use the values defined in partials/_book-base-values.scss
 // and/or partials/_vars.scss
 
-$global_header_bg_color: #00a79d;
+$global_header_bg_color: #00a79d !important;
 
 $color-accent: #00a79d;
 $color-accent-bright: #00a79d;
@@ -12,5 +12,5 @@ $color-link-border: #00a79d;
 
 $color-border-tip: #00a79d;
 
-$color-bg-header: #00a79d;
-$color-bg-dark: #00a79d;
+$color-bg-header: #00a79d !important;
+$color-bg-dark: #00a79d !important;
