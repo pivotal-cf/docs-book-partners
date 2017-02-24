@@ -8,3 +8,12 @@
 
 @import "partials/book-vars";
 @import "partials/book-base-values";
+
+
+header.global-header {
+  background-color: $global_header_bg_color;
+}
+
+.title-container {
+	margin-top: $title-container-drop;
+}
