@@ -1,6 +1,6 @@
-#  PCF Services Documentation Book 
+#  PCF Partners Documentation Book 
 
-This project can create and publish the documentation for PCF Services, PCF Partner Services, and PCF Add-ons as a web application.
+This project can create and publish the documentation for PCF Partners as a web application.
 
 In this topic:
 
@@ -21,7 +21,7 @@ Bookbinder uses this centralized layout repository by default, but files in the 
 
 ## What's in this Repo
 
-Here you'll find the configuration and templates for the PCF Services, PCF Partner Services, and PCF Add-ons documentation set published to [docs.pivotal.io](http://docs.pivotal.io).
+Here you'll find the configuration and templates for the PCF Partners documentation set published to [docs.pivotal.io](http://docs.pivotal.io/partners).
 
 This repository *does not* contain the actual documentation content. 
 Actual content is contained in the topic repositories listed in the `config.yml` file.
