@@ -95,7 +95,7 @@ sections:
   - repository:
     name: pivotal-cf/docs-contrast-service-broker
     at_path: docs-content
-  directory: partners/ontrast-service-broker
+  directory: partners/contrast-service-broker
   subnav_template: contrast-service-broker_subnav.erb
 - repository:
     name: pivotal-cf/docs-crunchy-data
