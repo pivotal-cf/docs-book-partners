@@ -92,6 +92,11 @@ sections:
     name: pivotal-cf/docs-cloudsoft
   directory: partners/cloudsoft
   subnav_template: cloudsoft_subnav.erb
+  - repository:
+    name: pivotal-cf/docs-contrast-service-broker
+    at_path: docs-content
+  directory: partners/ontrast-service-broker
+  subnav_template: contrast-service-broker_subnav.erb
 - repository:
     name: pivotal-cf/docs-crunchy-data
     at_path: docs-content
