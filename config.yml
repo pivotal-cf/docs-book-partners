@@ -58,6 +58,11 @@ sections:
   directory: partners/aerospike-ondemand
   subnav_template: aerospike-ondemand_subnav.erb
 - repository:
+    name: pivotal-cf/docs-altoros-jenkins
+    at_path: docs-content
+  directory: partners/altoros-jenkins
+  subnav_template: altoros-jenkins_subnav.erb
+- repository:
     name: pivotal-cf/docs-apigee
   directory: partners/apigee
   subnav_template: apigee_subnav.erb
