@@ -29,6 +29,6 @@ r301 %r{/partners/p-riakcs/(.*)}, 'https://docs.pivotal.io'
 r301 "/partners/", "https://docs.pivotal.io"
 r301 "/partners/index.html", "https://docs.pivotal.io"
 
-
+r301 %r{/partners/aerospike-ee/(.*)}, %r{/partners/aerospike-ee-managed-service/(.*)}
 # # all partners
 # r301 %r{/pivotalcf/(?![\d-]+)(.*)}, "/pivotalcf/1-10/$1"
