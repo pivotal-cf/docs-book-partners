@@ -50,7 +50,7 @@ sections:
 - repository:
     name: pivotal-cf/docs-aerospike-ee
     at_path: docs-content
-  directory: partners/aerospike-ee
+  directory: partners/aerospike-ee-managed-service
   subnav_template: aerospike_ee_subnav.erb
 - repository:
     name: pivotal-cf/docs-aerospike-ondemand
