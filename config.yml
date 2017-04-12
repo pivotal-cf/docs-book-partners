@@ -43,6 +43,16 @@ sections:
   directory: partners/a9s-postgresql
   subnav_template: a9s-postgresql.erb
 - repository:
+    name: pivotal-cf/docs-a9s-rabbitmq
+    at_path: docs-content
+  directory: partners/a9s-rabbitmq
+  subnav_template: a9s-rabbitmq_subnav.erb
+- repository:
+    name: pivotal-cf/docs-a9s-redis
+    at_path: docs-content
+  directory: partners/a9s-redis
+  subnav_template: a9s-redis_subnav.erb
+- repository:
     name: pivotal-cf/docs-aerospike
     at_path: docs-content
   directory: partners/aerospike
