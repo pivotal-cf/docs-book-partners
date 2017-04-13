@@ -202,6 +202,7 @@ sections:
   subnav_template: pivotal_new_relic_service_subnav.erb
 - repository:
     name: pivotal-cf/docs-pagerduty-service-broker
+    at_path: docs-content
   directory: partners/pagerduty
   subnav_template: pagerduty-service-broker_subnav.erb
 - repository:
