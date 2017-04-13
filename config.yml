@@ -201,6 +201,10 @@ sections:
   directory: partners/newrelic
   subnav_template: pivotal_new_relic_service_subnav.erb
 - repository:
+    name: pivotal-cf/docs-pagerduty-service-broker
+  directory: partners/pagerduty
+  subnav_template: pagerduty-service-broker_subnav.erb
+- repository:
     name: pivotal-cf/docs-rle-service-broker
   directory: partners/rle-service-broker
   subnav_template: pivotal_rle_service_broker.erb
