@@ -104,6 +104,11 @@ sections:
   directory: partners/cloudbees
   subnav_template: pivotal_cloudbees_service_subnav.erb
 - repository:
+    name: pivotal-cf/docs-cloudflare
+    at_path: docs-content
+  directory: partners/cloudflare-service-broker
+  subnav_template: cloudflare_subnav.erb
+- repository:
     name: pivotal-cf/docs-cloudsoft
   directory: partners/cloudsoft
   subnav_template: cloudsoft_subnav.erb
