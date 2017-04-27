@@ -245,6 +245,11 @@ sections:
   directory: partners/splunk
   subnav_template: splunk_subnav.erb
 - repository:
+    name: pivotal-cf/docs-stardog
+    at_path: docs-content
+  directory: partners/stardog-service-broker
+  subnav_template: stardog_subnav.erb
+- repository:
     name: pivotal-cf/docs-tibco-businessworks
   directory: partners/tibco-businessworks
   subnav_template: tibco_businessworks_subnav.erb
