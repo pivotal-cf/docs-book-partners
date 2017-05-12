@@ -68,6 +68,11 @@ sections:
   directory: partners/aerospike-ondemand
   subnav_template: aerospike-ondemand_subnav.erb
 - repository:
+    name: pivotal-cf/docs-altoros-aws-s3
+    at_path: docs-content
+  directory: partners/altoros-aws-s3
+  subnav_template: altoros-aws-s3_subnav.erb
+- repository:
     name: pivotal-cf/docs-altoros-jenkins
     at_path: docs-content
   directory: partners/altoros-jenkins
