@@ -190,6 +190,11 @@ sections:
   directory: partners/hazelcast
   subnav_template: hazelcast_subnav.erb
 - repository:
+    name: pivotal-cf/docs-hazelcast-jet
+    at_path: docs-content
+  directory: partners/hazelcast-jet
+  subnav_template: hazelcast-jet_subnav.erb
+- repository:
     name: pivotal-cf/docs-honeycomb
     at_path: docs-content
   directory: partners/honeycomb-nozzle
