@@ -53,6 +53,11 @@ sections:
   directory: partners/a9s-redis
   subnav_template: a9s-redis_subnav.erb
 - repository:
+    name: pivotal-cf/docs-altoros-cassandra
+    at_path: docs-content
+  directory: partners/altoros-cassandra
+  subnav_template: altoros-cassandra_subnav.erb
+- repository:
     name: pivotal-cf/docs-aerospike
     at_path: docs-content
   directory: partners/aerospike
