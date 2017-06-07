@@ -153,6 +153,11 @@ sections:
   directory: partners/dynatrace
   subnav_template: pivotal_dynatrace_service_subnav.erb
 - repository:
+    name: pivotal-cf/docs-dynatrace-fullstack-addon
+    at_path: docs-content
+  directory: partners/dynatrace-fullstack-addon
+  subnav_template: dynatrace-fullstack-addon_subnav.erb
+- repository:
     name: pivotal-cf/docs-edb-postgres
   directory: partners/edb-postgres
   subnav_template: pivotal_edb_postgres.erb
