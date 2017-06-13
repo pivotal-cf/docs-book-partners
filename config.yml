@@ -247,6 +247,7 @@ sections:
   subnav_template: pagerduty-service-broker_subnav.erb
 - repository:
     name: pivotal-cf/docs-redislabs-enterprise
+    at_path: docs-content
   directory: partners/redis-labs-enterprise-pack
   subnav_template: redis-labs-enterprise_subnav.erb
 - repository:
