@@ -246,6 +246,10 @@ sections:
   directory: partners/pagerduty
   subnav_template: pagerduty-service-broker_subnav.erb
 - repository:
+    name: pivotal-cf/docs-redislabs-enterprise
+  directory: partners/redis-labs-enterprise-pack
+  subnav_template: redis-labs-enterprise_subnav.erb
+- repository:
     name: pivotal-cf/docs-rle-service-broker
   directory: partners/rle-service-broker
   subnav_template: pivotal_rle_service_broker.erb
