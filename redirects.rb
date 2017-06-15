@@ -20,6 +20,7 @@ r301 %r{/partners/rlec/(.*)}, '/partners/rle-service-broker/index.html'
 # Partners redirects
 r301 %r{/partners/appmon/(.*)}, '/partners/dynatrace/index.html'
 r301 %r{/partners/ruxit/(.*)}, '/partners/dynatrace/index.html'
+r301 %r{/partners/datastax/(.*)}, '/partners/datastax-service-broker/index.html'
 
 # Is this current as of Q1 2017?
 r301 %r{/partners/cjoc/(.*)}, 'https://docs.pivotal.io'

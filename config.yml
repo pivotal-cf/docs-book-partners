@@ -140,8 +140,8 @@ sections:
 - repository:
     name: pivotal-cf/docs-datastax
     at_path: docs-content
-  directory: partners/datastax
-  subnav_template: datastax_subnav.erb
+  directory: partners/datastax-service-broker
+  subnav_template: datastax-service-broker_subnav.erb
 - repository:
     name: pivotal-cf/docs-dyadic-service-broker
     at_path: docs-content
