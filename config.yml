@@ -115,6 +115,11 @@ sections:
   directory: partners/azure-sb
   subnav_template: azuresb_subnav.erb
 - repository:
+    name: pivotal-cf/docs-azure-analytics
+    at_path: docs-content
+  directory: partners/azure-log-analytics-nozzle
+  subnav_template: azure-log-analytics-nozzle_subnav.erb
+- repository:
     name: pivotal-cf/docs-blue-medora
     at_path: docs-content
   directory: partners/blue-medora
