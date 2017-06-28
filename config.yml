@@ -153,6 +153,11 @@ sections:
   directory: partners/datastax-service-broker
   subnav_template: datastax-service-broker_subnav.erb
 - repository:
+    name: pivotal-cf/docs-datastax-cassandra
+    at_path: docs-content
+  directory: partners/datastax-cassandra
+  subnav_template: datastax-cassandra_subnav.erb
+- repository:
     name: pivotal-cf/docs-dyadic-service-broker
     at_path: docs-content
   directory: partners/dyadic-service-broker
