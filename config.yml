@@ -120,6 +120,11 @@ sections:
   directory: partners/azure-log-analytics-nozzle
   subnav_template: azure-log-analytics-nozzle_subnav.erb
 - repository:
+    name: pivotal-cf/docs-blackduck
+    at_path: docs-content
+  directory: partners/blackduck-service-broker
+  subnav_template: blackduck-service-broker_subnav.erb
+- repository:
     name: pivotal-cf/docs-blue-medora
     at_path: docs-content
   directory: partners/blue-medora
