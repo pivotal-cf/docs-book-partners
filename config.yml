@@ -271,6 +271,11 @@ sections:
   directory: partners/pagerduty
   subnav_template: pagerduty-service-broker_subnav.erb
 - repository:
+    name: pivotal-cf/docs-pega
+    at_path: docs-content
+  directory: partners/pega
+  subnav_template: pega_subnav.erb
+- repository:
     name: pivotal-cf/docs-redislabs-enterprise
     at_path: docs-content
   directory: partners/redis-labs-enterprise-pack
