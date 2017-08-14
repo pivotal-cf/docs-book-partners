@@ -324,6 +324,11 @@ sections:
   directory: partners/tibco-businessworks
   subnav_template: tibco_businessworks_subnav.erb
 - repository:
+    name: pivotal-cf/docs-wavefront-nozzle
+    at_path: docs-content
+  directory: partners/wavefront-nozzle
+  subnav_template: wavefront-nozzle_subnav.erb
+- repository:
     name: dingotiles/dingo-docs
     at_path: docs-dingo-postgresql
   directory: partners/dingo-postgresql
