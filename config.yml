@@ -325,6 +325,7 @@ sections:
   subnav_template: tibco_businessworks_subnav.erb
 - repository:
     name: pivotal-cf/docs-wavefront-nozzle
+    at_path: docs-content
   directory: partners/wavefront-nozzle
   subnav_template: wavefront-nozzle_subnav.erb
 - repository:
