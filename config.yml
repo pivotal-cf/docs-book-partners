@@ -325,6 +325,11 @@ sections:
   directory: partners/sumologic-nozzle
   subnav_template: sumologic_subnav.erb
 - repository:
+    name: pivotal-cf/docs-sw-shield
+    at_path: docs-content
+  directory: partners/starkandwayne-shield
+  subnav_template: starkandwayne_shield_subnav.erb
+- repository:
     name: pivotal-cf/docs-tibco-businessworks
   directory: partners/tibco-businessworks
   subnav_template: tibco_businessworks_subnav.erb
