@@ -33,6 +33,11 @@ sections:
   directory: partners/a9s-elasticsearch
   subnav_template: a9s-elasticsearch_subnav.erb
 - repository:
+    name: pivotal-cf/docs-a9s-logme
+    at_path: docs-content
+  directory: partners/a9s-logme
+  subnav_template: a9s-logme_subnav.erb
+- repository:
     name: pivotal-cf/docs-a9s-mongodb
     at_path: docs-content
   directory: partners/a9s-mongodb
