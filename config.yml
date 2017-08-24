@@ -188,6 +188,10 @@ sections:
   directory: partners/dynatrace-fullstack-addon
   subnav_template: dynatrace-fullstack-addon_subnav.erb
 - repository:
+    name: pivotal-cf/docs-ecs-service-broker
+  directory: partners/ecs-service-broker
+  subnav_template: ecs-service-broker_subnav.erb.erb
+- repository:
     name: pivotal-cf/docs-edb-postgres
   directory: partners/edb-postgres
   subnav_template: pivotal_edb_postgres.erb
