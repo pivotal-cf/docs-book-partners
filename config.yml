@@ -189,6 +189,7 @@ sections:
   subnav_template: dynatrace-fullstack-addon_subnav.erb
 - repository:
     name: pivotal-cf/docs-ecs-service-broker
+    at_path: docs-content
   directory: partners/ecs-service-broker
   subnav_template: ecs-service-broker_subnav.erb.erb
 - repository:
