@@ -348,8 +348,3 @@ sections:
     at_path: docs-content
   directory: partners/wavefront-nozzle
   subnav_template: wavefront-nozzle_subnav.erb
-- repository:
-    name: dingotiles/dingo-docs
-    at_path: docs-dingo-postgresql
-  directory: partners/dingo-postgresql
-  subnav_template: _dingo_postgresql_subnav.erb
