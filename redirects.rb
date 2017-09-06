@@ -25,6 +25,7 @@ r301 %r{/partners/datastax/(.*)}, '/partners/datastax-service-broker/index.html'
 # Is this current as of Q1 2017?
 r301 %r{/partners/cjoc/(.*)}, 'https://docs.pivotal.io'
 r301 %r{/partners/p-riakcs/(.*)}, 'https://docs.pivotal.io'
+r301 %r{/partners/dingo-postgresql/(.*)}, 'https://docs.pivotal.io'
 
 # Redirect from index back to book
 r301 "/partners/", "https://docs.pivotal.io"
