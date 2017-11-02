@@ -340,6 +340,11 @@ sections:
   directory: partners/sumologic-nozzle
   subnav_template: sumologic_subnav.erb
 - repository:
+    name: pivotal-cf/docs-sw-kafka
+    at_path: docs-content
+  directory: partners/starkandwayne-kafka
+  subnav_template: starkandwayne-kafka_subnav.erb
+- repository:
     name: pivotal-cf/docs-sw-shield
     at_path: docs-content
   directory: partners/starkandwayne-shield
