@@ -297,14 +297,15 @@ sections:
   directory: partners/neo4j
   subnav_template: pivotal_neo4j_service_subnav.erb
 - repository:
+    name: pivotal-cf/docs-new-relic-nozzle
+    at_path: docs-content
+  directory: partners/new-relic-nozzle
+  subnav_template: new-relic-nozzle_subnav.erb
+- repository:
     name: pivotal-cf/docs-new-relic
     at_path: docs-content
   directory: partners/newrelic
   subnav_template: pivotal_new_relic_service_subnav.erb
-- repository:
-    name: pivotal-cf/docs-new-relic-nozzle
-  directory: partners/new-relic-nozzle
-  subnav_template: new-relic-nozzle_subnav.erb
 - repository:
     name: pivotal-cf/docs-pagerduty-service-broker
     at_path: docs-content
