@@ -283,6 +283,11 @@ sections:
   directory: partners/knowtify
   subnav_template: pivotal_knowtify_service_subnav.erb
 - repository:
+    name: pivotal-cf/docs-minio
+    at_path: docs-content
+  directory: partners/minio
+  subnav_template: minio_subnav.erb
+- repository:
     name: pivotal-cf/docs-mongodb-managed
     at_path: docs-content
   directory: partners/mongodb
