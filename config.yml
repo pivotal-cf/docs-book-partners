@@ -380,6 +380,7 @@ sections:
   subnav_template: wavefront-nozzle_subnav.erb
 - repository:
     name: pivotal-cf/docs-vmware-harbor
+    at_path: docs-content
   directory: vmware-harbor
   subnav_template: vmware-harbor_subnav.erb
 
