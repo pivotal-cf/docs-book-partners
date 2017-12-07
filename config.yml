@@ -381,7 +381,7 @@ sections:
 - repository:
     name: pivotal-cf/docs-vmware-harbor
     at_path: docs-content
-  directory: vmware-harbor
+  directory: partners/vmware-harbor
   subnav_template: vmware-harbor_subnav.erb
 
 
