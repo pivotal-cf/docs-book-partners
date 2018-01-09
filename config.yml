@@ -384,6 +384,11 @@ sections:
   directory: partners/wavefront-nozzle
   subnav_template: wavefront-nozzle_subnav.erb
 - repository:
+    name: pivotal-cf/docs-weave-cloud
+    at_path: docs-content
+  directory: partners/weave-cloud
+  subnav_template: weave-cloud_subnav.erb
+- repository:
     name: pivotal-cf/docs-vmware-harbor
     at_path: docs-content
   directory: partners/vmware-harbor
