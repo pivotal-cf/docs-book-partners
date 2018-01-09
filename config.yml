@@ -227,6 +227,11 @@ sections:
   directory: partners/wombat
   subnav_template: erlang_wombat_subnav.erb
 - repository:
+    name: pivotal-cf/docs-f5-container-connector
+    at_path: docs-content
+  directory: partners/f5-container-connector
+  subnav_template: f5-container-connector_subnav.erb
+- repository:
     name: pivotal-cf/docs-firstdata
     at_path: docs-content
   directory: partners/firstdata
