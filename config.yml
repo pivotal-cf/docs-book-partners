@@ -227,6 +227,11 @@ sections:
   directory: partners/wombat
   subnav_template: erlang_wombat_subnav.erb
 - repository:
+    name: pivotal-cf/docs-f5-container-connector
+    at_path: docs-content
+  directory: partners/f5-container-connector
+  subnav_template: f5-container-connector_subnav.erb
+- repository:
     name: pivotal-cf/docs-firstdata
     at_path: docs-content
   directory: partners/firstdata
@@ -378,6 +383,11 @@ sections:
     at_path: docs-content
   directory: partners/wavefront-nozzle
   subnav_template: wavefront-nozzle_subnav.erb
+- repository:
+    name: pivotal-cf/docs-weave-cloud
+    at_path: docs-content
+  directory: partners/weave-cloud
+  subnav_template: weave-cloud_subnav.erb
 - repository:
     name: pivotal-cf/docs-vmware-harbor
     at_path: docs-content
