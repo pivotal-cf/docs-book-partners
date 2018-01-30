@@ -178,6 +178,11 @@ sections:
   directory: partners/crunchy
   subnav_template: crunchy_subnav.erb
 - repository:
+    name: pivotal-cf/docs-cyberark-conjur-service-broker
+    at_path: docs-content
+  directory: partners/cyberark-conjur-service-broker
+  subnav_template: cyberark-conjur-service-broker_subnav.erb
+- repository:
     name: pivotal-cf/docs-datadog
     at_path: docs-content
   directory: partners/datadog
