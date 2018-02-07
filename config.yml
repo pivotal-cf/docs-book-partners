@@ -381,6 +381,7 @@ sections:
   subnav_template: starkandwayne_shield_subnav.erb
 - repository:
     name: pivotal-cf/docs-tibco-businessworks
+    at_path: docs-content
   directory: partners/tibco-businessworks
   subnav_template: tibco_businessworks_subnav.erb
 - repository:
