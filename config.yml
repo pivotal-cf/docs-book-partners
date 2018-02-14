@@ -168,6 +168,11 @@ sections:
   directory: partners/cloudsoft
   subnav_template: cloudsoft_subnav.erb
 - repository:
+    name: pivotal-cf/docs-cockroachdb-service-broker
+    at_path: docs-content
+  directory: partners/cockroachdb-service-broker
+  subnav_template: cockroachdb-service-broker_subnav.erb
+- repository:
     name: pivotal-cf/docs-contrast-service-broker
     at_path: docs-content
   directory: partners/contrast-service-broker
