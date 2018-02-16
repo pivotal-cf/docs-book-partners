@@ -126,10 +126,6 @@ sections:
   directory: partners/appdynamics
   subnav_template: _appdynamics_subnav.erb
 - repository:
-    name: pivotal-cf/docs-azuqua
-  directory: partners/azuqua
-  subnav_template: azuqua_subnav.erb
-- repository:
     name: pivotal-cf/docs-azure
     at_path: docs-content
   directory: partners/azure-sb
@@ -150,19 +146,9 @@ sections:
   directory: partners/blue-medora
   subnav_template: blue_medora_subnav.erb
 - repository:
-    name: pivotal-cf/docs-boomi-atomsphere-int-services
-    at_path: docs-content
-  directory: partners/boomi-atomsphere-int-services
-  subnav_template: boomi-atomsphere-int-services_subnav.erb
-- repository:
     name: pivotal-cf/docs-cloudbees
   directory: partners/cloudbees
   subnav_template: pivotal_cloudbees_service_subnav.erb
-- repository:
-    name: pivotal-cf/docs-cloudflare
-    at_path: docs-content
-  directory: partners/cloudflare-service-broker
-  subnav_template: cloudflare_subnav.erb
 - repository:
     name: pivotal-cf/docs-cloudsoft
   directory: partners/cloudsoft
