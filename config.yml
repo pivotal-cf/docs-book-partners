@@ -126,6 +126,11 @@ sections:
   directory: partners/appdynamics
   subnav_template: _appdynamics_subnav.erb
 - repository:
+    name: pivotal-cf/docs-aqua-security
+    at_path: docs-content
+  directory: partners/aquasec
+  subnav_template: aquasec_subnav.erb
+- repository:
     name: pivotal-cf/docs-azure
     at_path: docs-content
   directory: partners/azure-sb
