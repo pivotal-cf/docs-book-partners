@@ -331,6 +331,11 @@ sections:
   directory: partners/rle-service-broker
   subnav_template: pivotal_rle_service_broker.erb
 - repository:
+    name: pivotal-cf/docs-sentry-service-broker
+    at_path: docs-content
+  directory: partners/sentry-service-broker
+  subnav_template: sentry-service-broker_subnav.erb
+- repository:
     name: pivotal-cf/docs-signalfx
     at_path: docs-content
   directory: partners/signalfx
