@@ -346,11 +346,6 @@ sections:
   directory: partners/signalsciences
   subnav_template: signalsciences_subnav.erb
 - repository:
-    name: pivotal-cf/docs-smb-volume-service
-    at_path: docs-content
-  directory: partners/smb-volume-service
-  subnav_template: smb-volume-service_subnav.erb
-- repository:
     name: pivotal-cf/docs-snyk-service-broker
     at_path: docs-content
   directory: partners/snyk-service-broker
