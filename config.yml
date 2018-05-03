@@ -184,6 +184,11 @@ sections:
   directory: partners/datadog
   subnav_template: datadog_subnav.erb
 - repository:
+    name: pivotal-cf/docs-datadog-application-monitoring
+    at_path: docs-content
+  directory: partners/datadog-application-monitoring
+  subnav_template: datadog-application-monitoring_subnav.erb
+- repository:
     name: pivotal-cf/docs-datastax
     at_path: docs-content
   directory: partners/datastax-service-broker
