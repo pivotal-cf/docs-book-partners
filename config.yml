@@ -160,10 +160,6 @@ sections:
   directory: partners/cloudbees
   subnav_template: pivotal_cloudbees_service_subnav.erb
 - repository:
-    name: pivotal-cf/docs-cloudsoft
-  directory: partners/cloudsoft
-  subnav_template: cloudsoft_subnav.erb
-- repository:
     name: pivotal-cf/docs-cockroachdb-service-broker
     at_path: docs-content
   directory: partners/cockroachdb-service-broker
