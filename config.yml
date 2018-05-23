@@ -263,10 +263,6 @@ sections:
   directory: partners/gcp-sb
   subnav_template: gcpsb_subnav.erb
 - repository:
-    name: pivotal-cf/docs-guardtime
-  directory: partners/guardtime
-  subnav_template: pivotal_guardtime.erb
-- repository:
     name: pivotal-cf/docs-hazelcast
     at_path: docs-content
   directory: partners/hazelcast
