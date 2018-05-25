@@ -108,11 +108,6 @@ sections:
   directory: partners/altoros-logsearch
   subnav_template: altoros-logsearch_subnav.erb
 - repository:
-    name: pivotal-cf/docs-altoros-spark
-    at_path: docs-content
-  directory: partners/altoros-spark
-  subnav_template: altoros-spark_subnav.erb
-- repository:
     name: pivotal-cf/docs-apigee
   directory: partners/apigee
   subnav_template: apigee_subnav.erb
