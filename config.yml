@@ -277,10 +277,6 @@ sections:
   directory: partners/jfrog
   subnav_template: pivotal_jfrog_service_subnav.erb
 - repository:
-    name: pivotal-cf/docs-klacloud
-  directory: partners/knowtify
-  subnav_template: pivotal_knowtify_service_subnav.erb
-- repository:
     name: pivotal-cf/docs-minio
     at_path: docs-content
   directory: partners/minio
