@@ -320,6 +320,11 @@ sections:
   directory: partners/redis-labs-enterprise-pack
   subnav_template: redis-labs-enterprise_subnav.erb
 - repository:
+    name: pivotal-cf/docs-riverbed-appinternals
+    at_path: docs-content
+  directory: partners/riverbed-appinternals
+  subnav_template: riverbed-appinternals_subnav.erb
+- repository:
     name: pivotal-cf/docs-rle-service-broker
   directory: partners/rle-service-broker
   subnav_template: pivotal_rle_service_broker.erb
