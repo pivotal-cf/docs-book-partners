@@ -248,11 +248,6 @@ sections:
   directory: partners/gitlab
   subnav_template: pivotal_gitlab_service_subnav.erb
 - repository:
-    name: pivotal-cf/docs-gluon-cloudlink
-    at_path: docs-content
-  directory: partners/gluon-cloudlink
-  subnav_template: gluon-service-broker_subnav.erb
-- repository:
     name: pivotal-cf/docs-google
     at_path: docs-content
   directory: partners/gcp-sb
