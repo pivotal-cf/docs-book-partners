@@ -351,8 +351,8 @@ sections:
 - repository:
     name: pivotal-cf/docs-solace-messaging
     at_path: docs-content
-  directory: partners/solace-messaging
-  subnav_template: pivotal_solace_messaging.erb
+  directory: partners/solace-pubsub
+  subnav_template: solace-pubsub_subnav.erb
 - repository:
     name: pivotal-cf/docs-splunk
     at_path: docs-content
