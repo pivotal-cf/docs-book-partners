@@ -398,5 +398,10 @@ sections:
     at_path: docs-content
   directory: partners/vmware-harbor
   subnav_template: vmware-harbor_subnav.erb
+- repository:
+    name: pivotal-cf/docs-zettaset-xcrypt
+    at_path: docs-content
+  directory: partners/zettaset-xcrypt
+  subnav_template: zettaset-xcrypt_subnav.erb
 
 
