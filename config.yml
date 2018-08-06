@@ -117,9 +117,10 @@ sections:
   directory: partners/edge-installer
   subnav_template: apigee_bosh_subnav.erb
 - repository:
-    name: pivotal-cf/docs-appdynamics
+    name: pivotal-cf/docs-appdynamics-apm
+    at_path: docs-content
   directory: partners/appdynamics
-  subnav_template: _appdynamics_subnav.erb
+  subnav_template: appdynamics-apm_subnav.erb
 - repository:
     name: pivotal-cf/docs-aqua-security
     at_path: docs-content
