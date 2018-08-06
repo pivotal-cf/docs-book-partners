@@ -229,11 +229,6 @@ sections:
   directory: partners/f5-container-connector
   subnav_template: f5-container-connector_subnav.erb
 - repository:
-    name: pivotal-cf/docs-firstdata
-    at_path: docs-content
-  directory: partners/firstdata
-  subnav_template: firstdata_subnav.erb
-- repository:
     name: pivotal-cf/docs-forgerock
     at_path: docs-content
   directory: partners/forgerock
