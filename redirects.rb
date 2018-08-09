@@ -1,3 +1,8 @@
+# Redirect all production http traffic to https
+r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
+  rack_env['SERVER_NAME'] == 'docs.pivotal.io' && rack_env['HTTP_X_FORWARDED_PROTO'] == 'http'
+}
+
 # Old 'partners' redirects, now known as tiledev
 r301 '/partners/creating.html', 'https://docs.pivotal.io/tiledev/tile-generator.html'
 r301 '/partners/decrypt-encrypt-install-file.html', 'https://docs.pivotal.io/pivotalcf/customizing/modify-ops-man.html'
