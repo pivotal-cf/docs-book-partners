@@ -18,16 +18,6 @@ sections:
 
 # repos in org pivotal-cf: alphabetical
 - repository:
-    name: pivotal-cf/docs-a9s-bosh
-    at_path: docs-content
-  directory: partners/a9s-bosh
-  subnav_template: a9s-bosh_subnav.erb
-- repository:
-    name: pivotal-cf/docs-a9s-consul
-    at_path: docs-content
-  directory: partners/a9s-consul-dns
-  subnav_template: a9s-consul-dns_subnav.erb
-- repository:
     name: pivotal-cf/docs-a9s-elasticsearch
     at_path: docs-content
   directory: partners/a9s-elasticsearch
