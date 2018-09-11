@@ -112,6 +112,11 @@ sections:
   directory: partners/appdynamics
   subnav_template: appdynamics-apm_subnav.erb
 - repository:
+    name: pivotal-cf/docs-appdynamics-platform
+    at_path: docs-content
+  directory: partners/appdynamics-platform
+  subnav_template: appdynamics-plaftorm_subnav.erb
+- repository:
     name: pivotal-cf/docs-aqua-security
     at_path: docs-content
   directory: partners/aquasec
