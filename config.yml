@@ -215,11 +215,6 @@ sections:
   directory: partners/edb-postgres-ark-sb
   subnav_template: edb-postgres-ark-sb_subnav.erb
 - repository:
-    name: pivotal-cf/docs-f5-container-connector
-    at_path: docs-content
-  directory: partners/f5-container-connector
-  subnav_template: f5-container-connector_subnav.erb
-- repository:
     name: pivotal-cf/docs-forgerock
     at_path: docs-content
   directory: partners/forgerock
