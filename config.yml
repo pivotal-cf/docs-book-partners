@@ -375,6 +375,11 @@ sections:
   directory: partners/vmware-harbor
   subnav_template: vmware-harbor_subnav.erb
 - repository:
+    name: pivotal-cf/docs-yugabyte-db
+    at_path: docs-content
+  directory: partners/yugabyte-db
+  subnav_template: yugabyte-db_subnav.erb
+- repository:
     name: pivotal-cf/docs-zettaset-xcrypt
     at_path: docs-content
   directory: partners/zettaset-xcrypt
