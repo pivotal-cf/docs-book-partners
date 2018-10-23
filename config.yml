@@ -186,11 +186,6 @@ sections:
   directory: partners/datastax-service-broker
   subnav_template: datastax-service-broker_subnav.erb
 - repository:
-    name: pivotal-cf/docs-datastax-enterprise
-    at_path: docs-content
-  directory: partners/datastax-enterprise
-  subnav_template: datastax-enterprise_subnav.erb
-- repository:
     name: pivotal-cf/docs-dynatrace
     at_path: docs-content
   directory: partners/dynatrace
