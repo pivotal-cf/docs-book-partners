@@ -267,6 +267,11 @@ sections:
   directory: partners/neo4j
   subnav_template: pivotal_neo4j_service_subnav.erb
 - repository:
+    name: pivotal-cf/docs-new-relic-dotnet-buildpack
+    at_path: docs-content
+  directory: partners/new-relic-dotnet-buildpack
+  subnav_template: new-relic-dotnet-buildpack_subnav.erb
+- repository:
     name: pivotal-cf/docs-new-relic-nozzle
     at_path: docs-content
   directory: partners/new-relic-nozzle
