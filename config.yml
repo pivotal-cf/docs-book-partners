@@ -253,6 +253,11 @@ sections:
   directory: partners/minio
   subnav_template: minio_subnav.erb
 - repository:
+    name: pivotal-cf/docs-minio-internal-blobstore
+    at_path: docs-content
+  directory: partners/minio-internal-blobstore
+  subnav_template: minio-internal-blobstore_subnav.erb
+- repository:
     name: pivotal-cf/docs-mongodb-managed
     at_path: docs-content
   directory: partners/mongodb
