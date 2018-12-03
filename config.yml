@@ -365,6 +365,11 @@ sections:
   directory: partners/tibco-businessworks
   subnav_template: tibco_businessworks_subnav.erb
 - repository:
+    name: pivotal-cf/docs-twistlock
+    at_path: docs-content
+  directory: partners/twistlock
+  subnav_template: twistlock_subnav.erb
+- repository:
     name: pivotal-cf/docs-vormetric-transparent-encryption
     at_path: docs-content
   directory: partners/vormetric-transparent-encryption
