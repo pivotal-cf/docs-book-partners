@@ -206,10 +206,6 @@ sections:
   directory: partners/ecs-service-broker
   subnav_template: ecs-service-broker_subnav.erb.erb
 - repository:
-    name: pivotal-cf/docs-edb-postgres
-  directory: partners/edb-postgres
-  subnav_template: pivotal_edb_postgres.erb
-- repository:
     name: pivotal-cf/docs-edb-postgres-ark-sb
     at_path: docs-content
   directory: partners/edb-postgres-ark-sb
@@ -238,11 +234,6 @@ sections:
     at_path: docs-content
   directory: partners/hazelcast
   subnav_template: hazelcast_subnav.erb
-- repository:
-    name: pivotal-cf/docs-hazelcast-jet
-    at_path: docs-content
-  directory: partners/hazelcast-jet
-  subnav_template: hazelcast-jet_subnav.erb
 - repository:
     name: pivotal-cf/docs-ibm-websphere-liberty-buildpack
     at_path: docs-content
