@@ -240,6 +240,11 @@ sections:
   directory: partners/hazelcast
   subnav_template: hazelcast_subnav.erb
 - repository:
+    name: pivotal-cf/docs-heimdall-database-proxy
+    at_path: docs-content
+  directory: partners/heimdall-database-proxy
+  subnav_template: heimdall-database-proxy_subnav.erb
+- repository:
     name: pivotal-cf/docs-ibm-websphere-liberty-buildpack
     at_path: docs-content
   directory: partners/ibm-websphere-liberty
