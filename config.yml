@@ -107,6 +107,11 @@ sections:
   directory: partners/edge-installer
   subnav_template: apigee_bosh_subnav.erb
 - repository:
+    name: pivotal-cf/docs-appdynamics-analytics
+    at_path: docs-content
+  directory: partners/appdynamics-analytics
+  subnav_template: appdynamics-analytics_subnav.erb
+- repository:
     name: pivotal-cf/docs-appdynamics-apm
     at_path: docs-content
   directory: partners/appdynamics
