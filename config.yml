@@ -274,6 +274,11 @@ sections:
   directory: partners/minio
   subnav_template: minio_subnav.erb
 - repository:
+    name: pivotal-cf/docs-minio-greenplum
+    at_path: docs-content
+  directory: partners/minio-greenplum
+  subnav_template: minio-greenplum_subnav.erb
+- repository:
     name: pivotal-cf/docs-minio-internal-blobstore
     at_path: docs-content
   directory: partners/minio-internal-blobstore
