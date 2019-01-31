@@ -381,6 +381,11 @@ sections:
   directory: partners/stardog-service-broker
   subnav_template: stardog_subnav.erb
 - repository:
+    name: pivotal-cf/docs-synopsys-seeker
+    at_path: docs-content
+  directory: partners/synopsys-seeker
+  subnav_template: synopsys-seeker_subnav.erb
+- repository:
     name: pivotal-cf/docs-sumologic
     at_path: docs-content
   directory: partners/sumologic-nozzle
