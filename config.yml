@@ -356,6 +356,11 @@ sections:
   directory: partners/smb-volume-service
   subnav_template: smb-volume-service_subnav.erb
 - repository:
+    name: pivotal-cf/docs-snappydata
+    at_path: docs-content
+  directory: partners/snappydata-service
+  subnav_template: snappydata_subnav.erb
+- repository:
     name: pivotal-cf/docs-snyk
     at_path: docs-content
   directory: partners/snyk
