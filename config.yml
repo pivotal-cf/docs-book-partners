@@ -322,6 +322,11 @@ sections:
   directory: partners/pega
   subnav_template: pega_subnav.erb
 - repository:
+    name: pivotal-cf/docs-redis-enterprise-tile-manager
+    at_path: docs-content
+  directory: partners/redis-enterprise-tile-manager
+  subnav_template: redis-enterprise-tile-manager_subnav.erb
+- repository:
     name: pivotal-cf/docs-redislabs-enterprise
     at_path: docs-content
   directory: partners/redis-labs-enterprise-pack
