@@ -157,6 +157,11 @@ sections:
   directory: partners/boomi-data-services
   subnav_template: boomi-data-services_subnav.erb
 - repository:
+    name: pivotal-cf/docs-boomi-data-services-pks
+    at_path: docs-content
+  directory: partners/boomi-data-services-pks
+  subnav_template: boomi-data-services-pks_subnav.erb
+- repository:
     name: pivotal-cf/docs-cloudbees
   directory: partners/cloudbees
   subnav_template: pivotal_cloudbees_service_subnav.erb
@@ -269,6 +274,11 @@ sections:
   directory: partners/minio
   subnav_template: minio_subnav.erb
 - repository:
+    name: pivotal-cf/docs-minio-greenplum
+    at_path: docs-content
+  directory: partners/minio-greenplum
+  subnav_template: minio-greenplum_subnav.erb
+- repository:
     name: pivotal-cf/docs-minio-internal-blobstore
     at_path: docs-content
   directory: partners/minio-internal-blobstore
@@ -312,6 +322,11 @@ sections:
   directory: partners/pega
   subnav_template: pega_subnav.erb
 - repository:
+    name: pivotal-cf/docs-redis-enterprise-tile-manager
+    at_path: docs-content
+  directory: partners/redis-enterprise-tile-manager
+  subnav_template: redis-enterprise-tile-manager_subnav.erb
+- repository:
     name: pivotal-cf/docs-redislabs-enterprise
     at_path: docs-content
   directory: partners/redis-labs-enterprise-pack
@@ -346,6 +361,11 @@ sections:
   directory: partners/smb-volume-service
   subnav_template: smb-volume-service_subnav.erb
 - repository:
+    name: pivotal-cf/docs-snappydata
+    at_path: docs-content
+  directory: partners/snappydata-service
+  subnav_template: snappydata_subnav.erb
+- repository:
     name: pivotal-cf/docs-snyk
     at_path: docs-content
   directory: partners/snyk
@@ -370,6 +390,11 @@ sections:
     at_path: docs-content
   directory: partners/stardog-service-broker
   subnav_template: stardog_subnav.erb
+- repository:
+    name: pivotal-cf/docs-synopsys-seeker
+    at_path: docs-content
+  directory: partners/synopsys-seeker
+  subnav_template: synopsys-seeker_subnav.erb
 - repository:
     name: pivotal-cf/docs-sumologic
     at_path: docs-content
