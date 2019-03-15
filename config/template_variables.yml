@@ -9,6 +9,9 @@ template_variables:
   product_full: Pivotal Application Service
   product_short: PAS
   product_name: PCF
+  product_pks_full: Enterprise Pivotal Container Service (Enterprise PKS)
+  product_pks_short: Enterprise PKS
+  product_pks_tile: Pivotal Container Service
   product_abbr: 
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
