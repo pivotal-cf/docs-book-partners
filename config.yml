@@ -381,11 +381,6 @@ sections:
   directory: partners/splunk
   subnav_template: splunk_subnav.erb
 - repository:
-    name: pivotal-cf/docs-stardog
-    at_path: docs-content
-  directory: partners/stardog-service-broker
-  subnav_template: stardog_subnav.erb
-- repository:
     name: pivotal-cf/docs-synopsys-seeker
     at_path: docs-content
   directory: partners/synopsys-seeker
