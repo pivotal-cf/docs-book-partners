@@ -221,6 +221,11 @@ sections:
   directory: partners/edb-postgres-ark-sb
   subnav_template: edb-postgres-ark-sb_subnav.erb
 - repository:
+    name: pivotal-cf/docs-engineerbetter-control-tower
+    at_path: docs-content
+  directory: partners/engineerbetter-control-tower
+  subnav_template: engineerbetter-control-tower_subnav.erb
+- repository:
     name: pivotal-cf/docs-evolven-change-analytics
     at_path: docs-content
   directory: partners/evolven-change-analytics-service-broker
