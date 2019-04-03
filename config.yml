@@ -214,7 +214,7 @@ sections:
     name: pivotal-cf/docs-ecs-service-broker
     at_path: docs-content
   directory: partners/ecs-service-broker
-  subnav_template: ecs-service-broker_subnav.erb.erb
+  subnav_template: ecs-service-broker_subnav.erb
 - repository:
     name: pivotal-cf/docs-edb-postgres-ark-sb
     at_path: docs-content
