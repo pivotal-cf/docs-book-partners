@@ -211,11 +211,6 @@ sections:
   directory: partners/ecs-service-broker
   subnav_template: ecs-service-broker_subnav.erb
 - repository:
-    name: pivotal-cf/docs-edb-postgres-ark-sb
-    at_path: docs-content
-  directory: partners/edb-postgres-ark-sb
-  subnav_template: edb-postgres-ark-sb_subnav.erb
-- repository:
     name: pivotal-cf/docs-engineerbetter-control-tower
     at_path: docs-content
   directory: partners/engineerbetter-control-tower
