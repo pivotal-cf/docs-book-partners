@@ -279,11 +279,6 @@ sections:
   directory: partners/mongodb
   subnav_template: pivotal_mongodb_service_subnav.erb
 - repository:
-    name: pivotal-cf/docs-mulesoft-anypoint
-    at_path: docs-content
-  directory: partners/mulesoft
-  subnav_template: mulesoft_subnav.erb
-- repository:
     name: pivotal-cf/docs-neo4j
   directory: partners/neo4j
   subnav_template: pivotal_neo4j_service_subnav.erb
