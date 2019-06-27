@@ -406,6 +406,11 @@ sections:
   directory: partners/vmware-harbor
   subnav_template: vmware-harbor_subnav.erb
 - repository:
+    name: pivotal-cf/docs-wso2-api-manager
+    at_path: docs-content
+  directory: partners/wso2-api-manager
+  subnav_template: wso2-api-manager_subnav.erb
+- repository:
     name: pivotal-cf/docs-xcrypt-archive-bbr
     at_path: docs-content
   directory: partners/xcrypt-archive
