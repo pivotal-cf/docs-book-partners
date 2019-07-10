@@ -137,6 +137,11 @@ sections:
   directory: partners/azure-log-analytics-nozzle
   subnav_template: azure-log-analytics-nozzle_subnav.erb
 - repository:
+    name: pivotal-cf/docs-bitdefender-endpoint
+    at_path: docs-content
+  directory: partners/bitdefender-endpoint
+  subnav_template: bitdefender-endpoint_subnav.erb
+- repository:
     name: pivotal-cf/docs-blackduck
     at_path: docs-content
   directory: partners/blackduck-service-broker
