@@ -53,20 +53,8 @@ sections:
   directory: partners/a9s-redis
   subnav_template: a9s-redis_subnav.erb
 - repository:
-    name: pivotal-cf/docs-aerospike
-    at_path: docs-content
-  directory: partners/aerospike
-  subnav_template: aerospike_subnav.erb
-- repository:
-    name: pivotal-cf/docs-aerospike-ee
-    at_path: docs-content
-  directory: partners/aerospike-ee-managed-service
-  subnav_template: aerospike_ee_subnav.erb
-- repository:
     name: pivotal-cf/docs-aerospike-ondemand
-    at_path: docs-content
-  directory: partners/aerospike-ondemand
-  subnav_template: aerospike-ondemand_subnav.erb
+    at_path: docs-content  directory: partners/aerospike-ondemand  subnav_template: aerospike-ondemand_subnav.erb
 - repository:
     name: pivotal-cf/docs-altoros-aws-s3
     at_path: docs-content
