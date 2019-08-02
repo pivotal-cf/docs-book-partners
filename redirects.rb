@@ -34,8 +34,8 @@ r301 %r{/partners/p-riakcs/(.*)}, 'https://docs.pivotal.io'
 r301 %r{/partners/dingo-postgresql/(.*)}, 'https://docs.pivotal.io'
 
 # Redirect from index back to book
-r301 "/partners/", "https://docs.pivotal.io"
-r301 "/partners/index.html", "https://docs.pivotal.io"
+r301 "/partners/", "https://docs-layout-test.cfapps.io"
+r301 "/partners/index.html", "http://docs-layout-test.cfapps.io"
 
 r301 %r{/partners/aerospike-ee/(.*)}, '/partners/aerospike-ee-managed-service/$1'
 # # all partners
