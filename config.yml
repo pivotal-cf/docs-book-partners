@@ -8,7 +8,7 @@ feedback_enabled: true
 broken_link_exclusions: iefix|arrowhead
 repo_link_enabled: true
 
-public_host: docs.pivotal.io
+public_host: docs-layout-test.cfapps.io
 
 elastic_search: true
 
