@@ -152,6 +152,11 @@ sections:
   directory: partners/boomi-data-services-pks
   subnav_template: boomi-data-services-pks_subnav.erb
 - repository:
+    name: pivotal-cf/docs-ca-apm
+    at_path: docs-content
+  directory: partners/dx-apm
+  subnav_template: dx-apm_subnav.erb
+- repository:
     name: pivotal-cf/docs-cloudbees
   directory: partners/cloudbees
   subnav_template: pivotal_cloudbees_service_subnav.erb
