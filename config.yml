@@ -119,7 +119,7 @@ sections:
 - repository:
     name: pivotal-cf/docs-axway-apim-service-broker
     at_path: docs-content
-  directory: partners/axway-apim
+  directory: partners/axway-apim-service-broker
   subnav_template: axway-apim-service-broker_subnav.erb
 - repository:
     name: pivotal-cf/docs-azure
