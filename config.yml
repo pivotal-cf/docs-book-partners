@@ -327,11 +327,6 @@ sections:
   directory: partners/pagerduty
   subnav_template: pagerduty-service-broker_subnav.erb
 - repository:
-    name: pivotal-cf/docs-pega
-    at_path: docs-content
-  directory: partners/pega
-  subnav_template: pega_subnav.erb
-- repository:
     name: pivotal-cf/docs-redis-enterprise-tile-manager
     at_path: docs-content
   directory: partners/redis-enterprise-tile-manager
