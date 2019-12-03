@@ -318,6 +318,11 @@ sections:
   directory: partners/new-relic-nozzle
   subnav_template: new-relic-nozzle_subnav.erb
 - repository:
+    name: pivotal-cf/docs-new-relic-cluster-monitoring
+    at_path: docs-content
+  directory: partners/new-relic-nozzle-cluster-monitoring
+  subnav_template: new-relic-cluster-monitoring_subnav.erb
+- repository:
     name: pivotal-cf/docs-new-relic
   directory: partners/newrelic
   subnav_template: pivotal_new_relic_service_subnav.erb
