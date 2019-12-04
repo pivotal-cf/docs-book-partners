@@ -320,7 +320,7 @@ sections:
 - repository:
     name: pivotal-cf/docs-new-relic-cluster-monitoring
     at_path: docs-content
-  directory: partners/new-relic-nozzle-cluster-monitoring
+  directory: partners/new-relic-cluster-monitoring
   subnav_template: new-relic-cluster-monitoring_subnav.erb
 - repository:
     name: pivotal-cf/docs-new-relic
