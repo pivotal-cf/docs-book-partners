@@ -73,11 +73,6 @@ sections:
   directory: partners/altoros-elasticsearch
   subnav_template: altoros-elasticsearch_subnav.erb
 - repository:
-    name: pivotal-cf/docs-altoros-heartbeat
-    at_path: docs-content
-  directory: partners/altoros-heartbeat
-  subnav_template: altoros-heartbeat_subnav.erb
-- repository:
     name: pivotal-cf/docs-altoros-jenkins
     at_path: docs-content
   directory: partners/altoros-jenkins
