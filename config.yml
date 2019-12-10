@@ -421,6 +421,11 @@ sections:
   directory: partners/wso2-api-manager
   subnav_template: wso2-api-manager_subnav.erb
 - repository:
+    name: pivotal-cf/docs-wso2-identity-server
+    at_path: docs-content
+  directory: partners/wso2-identity-server
+  subnav_template: wso2-identity-server_subnav.erb
+- repository:
     name: pivotal-cf/docs-xcrypt-archive-bbr
     at_path: docs-content
   directory: partners/xcrypt-archive
