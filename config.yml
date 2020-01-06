@@ -47,11 +47,6 @@ sections:
   directory: partners/apigee
   subnav_template: apigee_subnav.erb
 - repository:
-    name: pivotal-cf/docs-apigee-bosh
-    at_path: docs-content
-  directory: partners/edge-installer
-  subnav_template: apigee_bosh_subnav.erb
-- repository:
     name: pivotal-cf/docs-appdynamics-analytics
     at_path: docs-content
   directory: partners/appdynamics-analytics
@@ -310,11 +305,6 @@ sections:
     at_path: docs-content
   directory: partners/signalsciences
   subnav_template: signalsciences_subnav.erb
-- repository:
-    name: pivotal-cf/docs-smb-volume-service
-    at_path: docs-content
-  directory: partners/smb-volume-service
-  subnav_template: smb-volume-service_subnav.erb
 - repository:
     name: pivotal-cf/docs-snappydata
     at_path: docs-content
