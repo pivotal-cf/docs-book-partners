@@ -18,46 +18,6 @@ sections:
 
 # repos in org pivotal-cf: alphabetical
 - repository:
-    name: pivotal-cf/docs-a9s-elasticsearch
-    at_path: docs-content
-  directory: partners/a9s-elasticsearch
-  subnav_template: a9s-elasticsearch_subnav.erb
-- repository:
-    name: pivotal-cf/docs-a9s-logme
-    at_path: docs-content
-  directory: partners/a9s-logme
-  subnav_template: a9s-logme_subnav.erb
-- repository:
-    name: pivotal-cf/docs-a9s-mongodb
-    at_path: docs-content
-  directory: partners/a9s-mongodb
-  subnav_template: a9s-mongodb_subnav.erb
-- repository:
-    name: pivotal-cf/docs-a9s-mysql
-    at_path: docs-content
-  directory: partners/a9s-mysql
-  subnav_template: a9s-mysql_subnav.erb
-- repository:
-    name: pivotal-cf/docs-a9s-postgresql
-    at_path: docs-content
-  directory: partners/a9s-postgresql
-  subnav_template: a9s-postgresql.erb
-- repository:
-    name: pivotal-cf/docs-a9s-rabbitmq
-    at_path: docs-content
-  directory: partners/a9s-rabbitmq
-  subnav_template: a9s-rabbitmq_subnav.erb
-- repository:
-    name: pivotal-cf/docs-a9s-redis
-    at_path: docs-content
-  directory: partners/a9s-redis
-  subnav_template: a9s-redis_subnav.erb
-- repository:
-    name: pivotal-cf/docs-aerospike-ondemand
-    at_path: docs-content  
-  directory: partners/aerospike-ondemand  
-  subnav_template: aerospike-ondemand_subnav.erb
-- repository:
     name: pivotal-cf/docs-altoros-aws-s3
     at_path: docs-content
   directory: partners/altoros-aws-s3
@@ -73,11 +33,6 @@ sections:
   directory: partners/altoros-elasticsearch
   subnav_template: altoros-elasticsearch_subnav.erb
 - repository:
-    name: pivotal-cf/docs-altoros-heartbeat
-    at_path: docs-content
-  directory: partners/altoros-heartbeat
-  subnav_template: altoros-heartbeat_subnav.erb
-- repository:
     name: pivotal-cf/docs-altoros-jenkins
     at_path: docs-content
   directory: partners/altoros-jenkins
@@ -91,11 +46,6 @@ sections:
     name: pivotal-cf/docs-apigee
   directory: partners/apigee
   subnav_template: apigee_subnav.erb
-- repository:
-    name: pivotal-cf/docs-apigee-bosh
-    at_path: docs-content
-  directory: partners/edge-installer
-  subnav_template: apigee_bosh_subnav.erb
 - repository:
     name: pivotal-cf/docs-appdynamics-analytics
     at_path: docs-content
@@ -116,6 +66,11 @@ sections:
     at_path: docs-content
   directory: partners/aquasec
   subnav_template: aquasec_subnav.erb
+- repository:
+    name: pivotal-cf/docs-axway-apim-service-broker
+    at_path: docs-content
+  directory: partners/axway-apim-service-broker
+  subnav_template: axway-apim-service-broker_subnav.erb
 - repository:
     name: pivotal-cf/docs-azure
     at_path: docs-content
@@ -151,6 +106,11 @@ sections:
     at_path: docs-content
   directory: partners/boomi-data-services-pks
   subnav_template: boomi-data-services-pks_subnav.erb
+- repository:
+    name: pivotal-cf/docs-ca-apm
+    at_path: docs-content
+  directory: partners/dx-apm
+  subnav_template: dx-apm_subnav.erb
 - repository:
     name: pivotal-cf/docs-cloudbees
   directory: partners/cloudbees
@@ -308,6 +268,11 @@ sections:
   directory: partners/new-relic-nozzle
   subnav_template: new-relic-nozzle_subnav.erb
 - repository:
+    name: pivotal-cf/docs-new-relic-cluster-monitoring
+    at_path: docs-content
+  directory: partners/new-relic-cluster-monitoring
+  subnav_template: new-relic-cluster-monitoring_subnav.erb
+- repository:
     name: pivotal-cf/docs-new-relic
   directory: partners/newrelic
   subnav_template: pivotal_new_relic_service_subnav.erb
@@ -316,11 +281,6 @@ sections:
     at_path: docs-content
   directory: partners/pagerduty
   subnav_template: pagerduty-service-broker_subnav.erb
-- repository:
-    name: pivotal-cf/docs-pega
-    at_path: docs-content
-  directory: partners/pega
-  subnav_template: pega_subnav.erb
 - repository:
     name: pivotal-cf/docs-redis-enterprise-tile-manager
     at_path: docs-content
@@ -345,11 +305,6 @@ sections:
     at_path: docs-content
   directory: partners/signalsciences
   subnav_template: signalsciences_subnav.erb
-- repository:
-    name: pivotal-cf/docs-smb-volume-service
-    at_path: docs-content
-  directory: partners/smb-volume-service
-  subnav_template: smb-volume-service_subnav.erb
 - repository:
     name: pivotal-cf/docs-snappydata
     at_path: docs-content
@@ -416,6 +371,11 @@ sections:
   directory: partners/wso2-api-manager
   subnav_template: wso2-api-manager_subnav.erb
 - repository:
+    name: pivotal-cf/docs-wso2-identity-server
+    at_path: docs-content
+  directory: partners/wso2-identity-server
+  subnav_template: wso2-identity-server_subnav.erb
+- repository:
     name: pivotal-cf/docs-xcrypt-archive-bbr
     at_path: docs-content
   directory: partners/xcrypt-archive
@@ -431,3 +391,9 @@ sections:
   directory: partners/zettaset-xcrypt
   subnav_template: zettaset-xcrypt_subnav.erb
 
+# cross-product resources
+- repository:
+    name: pivotal-cf/docs-partials
+    ref: master
+  directory: partner/partials
+  no_docs: true

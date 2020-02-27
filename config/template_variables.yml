@@ -6,22 +6,39 @@ template_variables:
   title_href: /index.html#partners
   title_image:
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
+  product_url: https://network.pivotal.io/products/pivotal-cf
+  product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
+  support_link:
+  support_call_to_action: <a href="https://support.pivotal.io" target="_blank">Need Support?</a>
+  support_url: http://support.pivotal.io
+  api_version: 235
+  gtm_account_id: GTM-MW4LZHR
+
+# Product variables
+  platform_name: Pivotal Platform
+  platform_old: Pivotal Cloud Foundry
+  platform_code: PCF
+  product_name_lc: pcf
+  app_runtime_full: Pivotal Application Service
+  app_runtime: Application Service
+  app_runtime_abbr: PAS
+  k8s_runtime_full: Enterprise Pivotal Container Service
+  k8s_runtime: Enterprise PKS
+  k8s_runtime_abbr: PKS
+  windows_runtime_full: Pivotal Application Service for Windows
+  windows_runtime: Application Service for Windows
+  windows_runtime_abbr: PASW
+
+# Deprecated variables -- replace with current product variables when possible
   product_full: Pivotal Application Service
   product_short: PAS
   product_name: PCF
   product_pks_full: Enterprise Pivotal Container Service (Enterprise PKS)
   product_pks_short: Enterprise PKS
   product_pks_tile: Enterprise PKS
-  product_abbr: 
-  product_url: https://network.pivotal.io/products/pivotal-cf
-  product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
-  support_link:
-  support_call_to_action: <a href="https://support.pivotal.io" target="_blank">Need Support?</a>
-  support_url: http://support.pivotal.io
+  product_abbr:
 
-  api_version: 235
-  gtm_account_id: GTM-MW4LZHR
-
+# Book content variables
   admin: your Cloud Foundry administrator
   api_endpoint_book: For more information, see the [Identifying the API Endpoint for your Elastic Runtime Instance topic](http://docs.pivotal.io/pivotalcf/customizing/api-endpoint.html).
   api_endpoint: <a href="http://docs.pivotal.io/pivotalcf/opsguide/api-endpoint.html">the URL of the Cloud Controller in your Elastic Runtime instance</a>
@@ -108,8 +125,8 @@ template_variables:
   odb_pcfdev_version_pivnet: 1811
   odb_pcfdev_version: pcfdev-v0.19.1-rc.46
   odb_warden_stemcell_version: 3262.2
-  om_resurrector_header: <h4>Ops Manager Resurrector</h4>
-  om_resurrector_text: Enable the <a href="http://docs.pivotal.io/pivotalcf/customizing/resurrector.html#enabling">Ops Manager Resurrector</a>.
+  om_resurrector_header: <h4>BOSH Resurrector</h4>
+  om_resurrector_text: Enable the <a href="http://docs.pivotal.io/pivotalcf/customizing/resurrector.html#enabling">BOSH Resurrector</a>.
   org_members_multi: images/pcf/org-members-multi.png
   org_members: images/pcf/org-members.png
   org_roles: "Organization Manager and Organization Auditor"
