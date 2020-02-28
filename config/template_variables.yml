@@ -4,7 +4,7 @@ template_variables:
   book_title_short: Pivotal Partner Docs
   title: Partner Documentation
   title_href: /index.html#partners
-  title_image:
+  title_image:  <img class="pivotal-logo" src="https://d1fto35gcfffzn.cloudfront.net/images/docs/logo-tanzu-docs.svg">
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
