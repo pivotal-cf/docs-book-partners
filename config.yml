@@ -126,11 +126,6 @@ sections:
   directory: partners/contrast-service-broker
   subnav_template: contrast-service-broker_subnav.erb
 - repository:
-    name: pivotal-cf/docs-crunchy-data
-    at_path: docs-content
-  directory: partners/crunchy
-  subnav_template: crunchy_subnav.erb
-- repository:
     name: pivotal-cf/docs-cyberark-conjur-service-broker
     at_path: docs-content
   directory: partners/cyberark-conjur-service-broker
