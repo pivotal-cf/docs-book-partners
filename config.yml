@@ -351,11 +351,6 @@ sections:
   directory: partners/twistlock
   subnav_template: twistlock_subnav.erb
 - repository:
-    name: pivotal-cf/docs-vormetric-transparent-encryption
-    at_path: docs-content
-  directory: partners/vormetric-transparent-encryption
-  subnav_template: vormetric-transparent-encryption_subnav.erb
-- repository:
     name: pivotal-cf/docs-wavefront-nozzle
     at_path: docs-content
   directory: partners/wavefront-nozzle
