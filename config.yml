@@ -43,10 +43,6 @@ sections:
   directory: partners/altoros-logsearch
   subnav_template: altoros-logsearch_subnav.erb
 - repository:
-    name: pivotal-cf/docs-apigee
-  directory: partners/apigee
-  subnav_template: apigee_subnav.erb
-- repository:
     name: pivotal-cf/docs-appdynamics-analytics
     at_path: docs-content
   directory: partners/appdynamics-analytics
