@@ -1,11 +1,11 @@
 ---
 template_variables:
-  book_title: Pivotal Partner Documentation
-  book_title_short: Pivotal Partner Docs
+  book_title: VMware Tanzu Partner Documentation
+  book_title_short: VMware Tanzu Partner Docs
   title: Partner Documentation
   title_href: /index.html#partners
-  title_image:  <img class="pivotal-logo" src="https://d1fto35gcfffzn.cloudfront.net/images/docs/logo-tanzu-docs.svg">
-  hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
+  title_image:
+  hero_text: "Detailed documentation to help you install, understand, and succeed with VMware Tanzu enterprise-grade software."
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
   support_link:
@@ -15,19 +15,16 @@ template_variables:
   gtm_account_id: GTM-MW4LZHR
 
 # Product variables
-  platform_name: Pivotal Platform
+  platform_name: Ops Manager
   platform_old: Pivotal Cloud Foundry
   platform_code: PCF
   product_name_lc: pcf
-  app_runtime_full: Pivotal Application Service
-  app_runtime: Application Service
-  app_runtime_abbr: PAS
-  k8s_runtime_full: Enterprise Pivotal Container Service
-  k8s_runtime: Enterprise PKS
+  app_runtime_full: VMware Tanzu Application Service for VMs
+  app_runtime_abbr: TAS for VMs
+  k8s_runtime_full: VMware Enterprise PKS
   k8s_runtime_abbr: PKS
-  windows_runtime_full: Pivotal Application Service for Windows
-  windows_runtime: Application Service for Windows
-  windows_runtime_abbr: PASW
+  windows_runtime_full: VMware Tanzu Application Service for VMs &#91;Windows&#93;
+  windows_runtime_abbr: TAS for VMs &#91;Windows&#93;
 
 # Deprecated variables -- replace with current product variables when possible
   product_full: Pivotal Application Service

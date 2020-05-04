@@ -43,10 +43,6 @@ sections:
   directory: partners/altoros-logsearch
   subnav_template: altoros-logsearch_subnav.erb
 - repository:
-    name: pivotal-cf/docs-apigee
-  directory: partners/apigee
-  subnav_template: apigee_subnav.erb
-- repository:
     name: pivotal-cf/docs-appdynamics-analytics
     at_path: docs-content
   directory: partners/appdynamics-analytics
@@ -125,11 +121,6 @@ sections:
     at_path: docs-content
   directory: partners/contrast-service-broker
   subnav_template: contrast-service-broker_subnav.erb
-- repository:
-    name: pivotal-cf/docs-crunchy-data
-    at_path: docs-content
-  directory: partners/crunchy
-  subnav_template: crunchy_subnav.erb
 - repository:
     name: pivotal-cf/docs-cyberark-conjur-service-broker
     at_path: docs-content
@@ -301,6 +292,11 @@ sections:
   directory: partners/rle-service-broker
   subnav_template: pivotal_rle_service_broker.erb
 - repository:
+    name: pivotal-cf/docs-signalfx
+    at_path: docs-content
+  directory: partners/signalfx
+  subnav_template: signalfx_subnav.erb
+- repository:
     name: pivotal-cf/docs-signal-sciences
     at_path: docs-content
   directory: partners/signalsciences
@@ -350,11 +346,6 @@ sections:
     at_path: docs-content
   directory: partners/twistlock
   subnav_template: twistlock_subnav.erb
-- repository:
-    name: pivotal-cf/docs-vormetric-transparent-encryption
-    at_path: docs-content
-  directory: partners/vormetric-transparent-encryption
-  subnav_template: vormetric-transparent-encryption_subnav.erb
 - repository:
     name: pivotal-cf/docs-wavefront-nozzle
     at_path: docs-content
