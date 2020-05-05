@@ -112,11 +112,6 @@ sections:
   directory: partners/cloudbees
   subnav_template: pivotal_cloudbees_service_subnav.erb
 - repository:
-    name: pivotal-cf/docs-cloudbees-core-pks
-    at_path: docs-content
-  directory: partners/cloudbees-core
-  subnav_template: cloudbees-core_subnav.erb
-- repository:
     name: pivotal-cf/docs-contrast-service-broker
     at_path: docs-content
   directory: partners/contrast-service-broker
