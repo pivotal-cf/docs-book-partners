@@ -268,7 +268,7 @@ sections:
   directory: partners/pagerduty
   subnav_template: pagerduty-service-broker_subnav.erb
 - repository:
-    name: pivotal-cf/qualys-cloud-agent
+    name: pivotal-cf/docs-qualys-cloud-agent
     at_path: docs-content
   directory: partners/qualys-cloud-agent
   subnav_template: qualys-cloud-agent_subnav.erb
