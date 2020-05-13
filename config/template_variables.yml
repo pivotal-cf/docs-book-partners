@@ -21,8 +21,8 @@ template_variables:
   product_name_lc: pcf
   app_runtime_full: VMware Tanzu Application Service for VMs
   app_runtime_abbr: TAS for VMs
-  k8s_runtime_full: VMware Enterprise PKS
-  k8s_runtime_abbr: PKS
+  k8s_runtime_full: Tanzu Kubernetes Grid Integrated Edition
+  k8s_runtime_abbr: TKGI
   windows_runtime_full: VMware Tanzu Application Service for VMs &#91;Windows&#93;
   windows_runtime_abbr: TAS for VMs &#91;Windows&#93;
 
@@ -30,9 +30,9 @@ template_variables:
   product_full: Pivotal Application Service
   product_short: PAS
   product_name: PCF
-  product_pks_full: Enterprise Pivotal Container Service (Enterprise PKS)
-  product_pks_short: Enterprise PKS
-  product_pks_tile: Enterprise PKS
+  product_pks_full: Tanzu Kubernetes Grid Integrated Edition
+  product_pks_short: Tanzu Kubernetes Grid Integrated Edition
+  product_pks_tile: Tanzu Kubernetes Grid Integrated Edition
   product_abbr:
 
 # Book content variables
