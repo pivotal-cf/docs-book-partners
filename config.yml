@@ -196,16 +196,6 @@ sections:
   directory: partners/heimdall-database-proxy
   subnav_template: heimdall-database-proxy_subnav.erb
 - repository:
-    name: pivotal-cf/docs-ibm-mq-advanced
-    at_path: docs-content
-  directory: partners/ibm-mq-advanced
-  subnav_template: ibm-mq-advanced_subnav.erb
-- repository:
-    name: pivotal-cf/docs-ibm-websphere-liberty-buildpack
-    at_path: docs-content
-  directory: partners/ibm-websphere-liberty
-  subnav_template: ibm-websphere-liberty-buildpack_subnav.erb
-- repository:
     name: pivotal-cf/docs-instana
     at_path: docs-content
   directory: partners/instana
@@ -301,11 +291,6 @@ sections:
     at_path: docs-content
   directory: partners/signalsciences
   subnav_template: signalsciences_subnav.erb
-- repository:
-    name: pivotal-cf/docs-snappydata
-    at_path: docs-content
-  directory: partners/snappydata-service
-  subnav_template: snappydata_subnav.erb
 - repository:
     name: pivotal-cf/docs-snyk
     at_path: docs-content
