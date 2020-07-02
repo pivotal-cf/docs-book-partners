@@ -63,6 +63,11 @@ sections:
   directory: partners/aquasec
   subnav_template: aquasec_subnav.erb
 - repository:
+    name: pivotal-cf/docs-awslabs-service-broker
+    at_path: docs-content
+  directory: partners/awslabs-service-broker
+  subnav_template: awslabs-service-broker_subnav.erb
+- repository:
     name: pivotal-cf/docs-axway-apim-service-broker
     at_path: docs-content
   directory: partners/axway-apim-service-broker
