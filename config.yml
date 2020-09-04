@@ -137,11 +137,6 @@ sections:
   directory: partners/datadog-application-monitoring
   subnav_template: datadog-application-monitoring_subnav.erb
 - repository:
-    name: pivotal-cf/docs-datastax
-    at_path: docs-content
-  directory: partners/datastax-service-broker
-  subnav_template: datastax-service-broker_subnav.erb
-- repository:
     name: pivotal-cf/docs-dynatrace
     at_path: docs-content
   directory: partners/dynatrace
@@ -172,11 +167,6 @@ sections:
   directory: partners/forgerock
   subnav_template: forgerock_subnav.erb
 - repository:
-    name: pivotal-cf/docs-gcp-stackdriver
-    at_path: docs-content
-  directory: partners/gcp-sdn
-  subnav_template: GCP-Stackdriver_subnav.erb
-- repository:
     name: pivotal-cf/docs-gitlab
   directory: partners/gitlab
   subnav_template: pivotal_gitlab_service_subnav.erb
@@ -190,11 +180,6 @@ sections:
     at_path: docs-content
   directory: partners/hazelcast
   subnav_template: hazelcast_subnav.erb
-- repository:
-    name: pivotal-cf/docs-hazelcast-jet
-    at_path: docs-content
-  directory: partners/hazelcast-jet
-  subnav_template: hazelcast-jet_subnav.erb
 - repository:
     name: pivotal-cf/docs-heimdall-database-proxy
     at_path: docs-content
@@ -230,11 +215,6 @@ sections:
   directory: partners/minio-internal-blobstore
   subnav_template: minio-internal-blobstore_subnav.erb
 - repository:
-    name: pivotal-cf/docs-mongodb-managed
-    at_path: docs-content
-  directory: partners/mongodb
-  subnav_template: pivotal_mongodb_service_subnav.erb
-- repository:
     name: pivotal-cf/docs-neo4j
   directory: partners/neo4j
   subnav_template: pivotal_neo4j_service_subnav.erb
@@ -267,11 +247,6 @@ sections:
     at_path: docs-content
   directory: partners/qualys-cloud-agent
   subnav_template: qualys-cloud-agent_subnav.erb
-- repository:
-    name: pivotal-cf/docs-redis-enterprise-tile-manager
-    at_path: docs-content
-  directory: partners/redis-enterprise-tile-manager
-  subnav_template: redis-enterprise-tile-manager_subnav.erb
 - repository:
     name: pivotal-cf/docs-redislabs-enterprise
     at_path: docs-content
