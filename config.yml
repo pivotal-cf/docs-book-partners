@@ -332,11 +332,6 @@ sections:
   directory: partners/xcrypt-archive
   subnav_template: xcrypt-archive-bbr_subnav.erb
 - repository:
-    name: pivotal-cf/docs-yugabyte-db
-    at_path: docs-content
-  directory: partners/yugabyte-db
-  subnav_template: yugabyte-db_subnav.erb
-- repository:
     name: pivotal-cf/docs-zettaset-xcrypt
     at_path: docs-content
   directory: partners/zettaset-xcrypt
