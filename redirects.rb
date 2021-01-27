@@ -25,6 +25,9 @@ r301 %r{/partners/rlec/(.*)}, '/partners/rle-service-broker/index.html'
 # Add redirect for Azure Log Analysis Nozzle, now VMware-owned
 r301 %r{/partners/azure-log-analytics-nozzle/(.*)}, '/azure-log-analytics-nozzle/$1'
 
+# Add redirect for VMware Harbor Registry, now no longer a partner doc
+r301 %r{/partners/vmware-harbor/(.*)}, '/vmware-harbor/$1'
+
 # Partners redirects
 r301 %r{/partners/appmon/(.*)}, '/partners/dynatrace/index.html'
 r301 %r{/partners/ruxit/(.*)}, '/partners/dynatrace/index.html'
