@@ -312,11 +312,6 @@ sections:
   directory: partners/wavefront-nozzle
   subnav_template: wavefront-nozzle_subnav.erb
 - repository:
-    name: pivotal-cf/docs-vmware-harbor
-    at_path: docs-content
-  directory: partners/vmware-harbor
-  subnav_template: vmware-harbor_subnav.erb
-- repository:
     name: pivotal-cf/docs-wso2-api-manager
     at_path: docs-content
   directory: partners/wso2-api-manager
