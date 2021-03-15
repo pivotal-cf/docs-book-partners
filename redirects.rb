@@ -28,6 +28,9 @@ r301 %r{/partners/azure-log-analytics-nozzle/(.*)}, '/azure-log-analytics-nozzle
 # Add redirect for VMware Harbor Registry, now no longer a partner doc
 r301 %r{/partners/vmware-harbor/(.*)}, '/vmware-harbor/$1'
 
+# Add redirect for VMware Tanzu Observability by Wavefront Nozzle, now no longer a partner doc
+r301 %r{/partners/wavefront-nozzle/(.*)}, '/wavefront-nozzle/$1'
+
 # Partners redirects
 r301 %r{/partners/appmon/(.*)}, '/partners/dynatrace/index.html'
 r301 %r{/partners/ruxit/(.*)}, '/partners/dynatrace/index.html'
