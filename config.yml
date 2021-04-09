@@ -267,11 +267,6 @@ sections:
   directory: partners/signalsciences
   subnav_template: signalsciences_subnav.erb
 - repository:
-    name: pivotal-cf/docs-snyk
-    at_path: docs-content
-  directory: partners/snyk
-  subnav_template: snyk_subnav.erb
-- repository:
     name: pivotal-cf/docs-snyk-service-broker
     at_path: docs-content
   directory: partners/snyk-service-broker
