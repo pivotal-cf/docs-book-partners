@@ -12,7 +12,7 @@ template_variables:
   support_call_to_action: <a href="https://support.pivotal.io" target="_blank">Need Support?</a>
   support_url: http://support.pivotal.io
   api_version: 235
-  gtm_account_id: GTM-MW4LZHR
+  gtm_account_id: GTM-MM86KCJ
 
 # Product variables
   platform_name: Ops Manager
