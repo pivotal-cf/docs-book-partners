@@ -223,6 +223,11 @@ sections:
   directory: partners/newrelic
   subnav_template: pivotal_new_relic_service_subnav.erb
 - repository:
+    name: pivotal-cf/docs-objectscale-service-broker
+    at_path: docs-content
+  directory: partners/objectscale-service-broker
+  subnav_template: ecs-service-broker_subnav.erb
+- repository:
     name: pivotal-cf/docs-pagerduty-service-broker
     at_path: docs-content
   directory: partners/pagerduty
