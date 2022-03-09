@@ -226,7 +226,7 @@ sections:
     name: pivotal-cf/docs-objectscale-service-broker
     at_path: docs-content
   directory: partners/objectscale-service-broker
-  subnav_template: ecs-service-broker_subnav.erb
+  subnav_template: objectscale-service-broker_subnav.erb
 - repository:
     name: pivotal-cf/docs-pagerduty-service-broker
     at_path: docs-content
