@@ -49,3 +49,11 @@ r301 "/partners/index.html", "https://docs.pivotal.io"
 r301 %r{/partners/aerospike-ee/(.*)}, '/partners/aerospike-ee-managed-service/$1'
 # # all partners
 # r301 %r{/pivotalcf/(?![\d-]+)(.*)}, "/pivotalcf/1-10/$1"
+
+# Redirects for discontinued Partner documentation
+
+r301 %r{/partners/altoros-jenkins/(.*)}, 'https://docs.pivotal.io'
+r301 %r{/partners/altoros-logsearch/(.*)}, 'https://docs.pivotal.io'
+r301 %r{/partners/altoros-elasticsearch/(.*)}, 'https://docs.pivotal.io'
+r301 %r{/partners/altoros-cassandra/(.*)}, 'https://docs.pivotal.io'
+r301 %r{/partners/altoros-aws-s3/(.*)}, 'https://docs.pivotal.io'
