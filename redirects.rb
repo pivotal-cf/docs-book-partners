@@ -60,6 +60,7 @@ r301 %r{/partners/altoros-aws-s3/(.*)}, 'https://docs.pivotal.io'
 
 # Redirects from docs.pivotal.io to docs.vmware.com
 r301 %r{/partners/appdynamics-platform/.*}, 'https://docs.vmware.com/en/AppDynamics-Platform-Monitoring-for-VMware-Tanzu/services/appdynamics-platform-monitoring/index.html'
+r301 %r{/partners/neo4j-enterprise/.*}, 'https://docs.vmware.com/en/Neo4j-Enterprise-for-VMware-Tanzu/services/neo4j-enterprise-vmware-tanzu/index.html'
 r301 %r{/partners/aquasec/.*}, 'https://docs.vmware.com/en/Aqua-Security-for-VMware-Tanzu/services/aqua-security-vmware-tanzu/index.html'
 r301 %r{/partners/awslabs-service-broker/.*}, 'https://docs.vmware.com/en/AWS-Service-Broker-for-VMware-Tanzu/services/awslabs-service-broker/index.html'
 r301 %r{/partners/blackduck-service-broker/.*}, 'https://docs.vmware.com/en/Synopsys-Black-Duck-Service-Broker-for-VMware-Tanzu/services/synopsys-blackduck-service-broker/index.html'
@@ -79,7 +80,6 @@ r301 %r{/partners/hazelcast/.*}, 'https://docs.vmware.com/en/Hazelcast-Platform-
 r301 %r{/partners/instana/.*}, 'https://docs.vmware.com/en/Instana-Microservices-Application-Monitoring-for-VMware-Tanzu/services/instana-microservices-application-monitoring/index.html'
 r301 %r{/partners/minio-internal-blobstore/.*}, 'https://docs.vmware.com/en/Minio-Internal-Blobstore-for-VMware-Tanzu/services/minio-internal-blobstore-vmware-tanzu/index.html'
 r301 %r{/partners/minio.*}, 'https://docs.vmware.com/en/Minio-for-VMware-Tanzu/services/minio-vmware-tanzu/index.html'
-r301 %r{/partners/neo4j-enterprise/.*}, 'https://docs.vmware.com/en/Neo4j-Enterprise-for-VMware-Tanzu/services/neo4j-enterprise-vmware-tanzu/index.html'
 r301 %r{/partners/new-relic-cluster-monitoring/.*}, 'https://docs.vmware.com/en/New-Relic-Cluster-Monitoring-for-VMware-Tanzu/services/new-relic-cluster-monitoring-vmware-tanzu/index.html'
 r301 %r{/partners/new-relic-dotnet-buildpack/.*}, 'https://docs.vmware.com/en/New-Relic-Dotnet-Extension-Buildpack-for-VMware-Tanzu/services/new-relic-dotnet-buildpack-vmware-tanzu/index.html'
 r301 %r{/partners/new-relic-nozzle/.*}, 'https://docs.vmware.com/en/New-Relic-Nozzle-for-VMware-Tanzu/services/new-relic-nozzle-vmware-tanzu/index.html'
