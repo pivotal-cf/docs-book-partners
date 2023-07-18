@@ -57,3 +57,6 @@ r301 %r{/partners/altoros-logsearch/(.*)}, 'https://docs.pivotal.io'
 r301 %r{/partners/altoros-elasticsearch/(.*)}, 'https://docs.pivotal.io'
 r301 %r{/partners/altoros-cassandra/(.*)}, 'https://docs.pivotal.io'
 r301 %r{/partners/altoros-aws-s3/(.*)}, 'https://docs.pivotal.io'
+
+# Redirects from docs.pivotal.io to docs.vmware.com
+r301 %r{/partners/appdynamics-platform/.*}, 'https://docs.vmware.com/en/AppDynamics-Platform-Monitoring-for-VMware-Tanzu/services/appdynamics-platform-monitoring/index.html'
