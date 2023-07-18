@@ -73,8 +73,7 @@ r301 %r{/partners/dynatrace-fullstack-addon/.*}, 'https://docs.vmware.com/en/Dyn
 r301 %r{/partners/dynatrace/.*}, 'https://docs.vmware.com/en/Dynatrace-Service-Broker-for-VMware-Tanzu/services/dynatrace-service-broker-vmware-tanzu/index.html'
 r301 %r{/partners/ecs-service-broker.*}, 'https://docs.vmware.com/en/ECS-Service-Broker-for-VMware-Tanzu/services/ecs-service-broker-vmware-tanzu/index.html'
 r301 %r{/partners/forgerock/.*}, 'https://docs.vmware.com/en/ForgeRock-Service-Broker-for-VMware-Tanzu/services/forgerock-vmware-tanzu/index.html'
-r301 %r{/partners/evolven-change-analytics-service-broker/.*}, 'https://docs.vmware.com/en/Evolven-Change-Analytics-for-VMware-Tanzu/services/evolven-change-analytics-vmware-tanzu/index.html'
-
+r301 %r{/partners/appdynamics-platform/.*}, 'https://docs.vmware.com/en/Evolven-Change-Analytics-for-VMware-Tanzu/services/evolven-change-analytics-vmware-tanzu/index.html'
 r301 %r{/partners/gcp-sb/.*}, 'https://docs.vmware.com/en/GCP-Service-Broker/services/gcp-service-broker/index.html'
 r301 %r{/partners/hazelcast/.*}, 'https://docs.vmware.com/en/Hazelcast-Platform-Enterprise-for-VMware-Tanzu/services/hazelcast-platform-enterprise-vmware-tanzu/index.html'
 r301 %r{/partners/instana/.*}, 'https://docs.vmware.com/en/Instana-Microservices-Application-Monitoring-for-VMware-Tanzu/services/instana-microservices-application-monitoring/index.html'
