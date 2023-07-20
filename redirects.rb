@@ -98,3 +98,4 @@ r301 %r{/partners/synopsys-seeker/.*}, 'https://docs.vmware.com/en/Synopsys-Seek
 r301 %r{/partners/tibco-businessworks/.*}, 'https://docs.vmware.com/en/TIBCO-BusinessWorks-Container-Edition-Buildpack-VMware-Tanzu/services/tibco-businessworks-container-edition-buildpack-vmware-tanzu/index.html'
 r301 %r{/partners/appdynamics/.*}, 'https://docs.vmware.com/en/AppDynamics-Application-Performance-Monitoring-for-VMware-Tanzu/services/appdynamics-application-performance-monitoring/index.html'
 r301 %r{/partners/twistlock/.*}, 'https://docs.vmware.com/en/Prisma-Cloud-for-VMware-Tanzu/services/prisma-cloud-vmware-tanzu/index.html'
+r301 %r{/partners/riverbed-appinternals.*}, 'https://docs.vmware.com/en/Aternity-APM-for-VMware-Tanzu/services/aternity-apm-tanzu/index.html'
